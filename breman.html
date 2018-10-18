@@ -1,0 +1,71 @@
+<div class="blog-content-box">
+	<div class="article-header-box">
+		<div class="article-header">
+			<div class="article-title-box">
+				<span class="article-type type-2 float-left">转</span>				<h1 class="title-article">总变分基础--来自胖熊熊专栏-备忘</h1>
+			</div>
+			<div class="article-info-box">
+				<div class="article-bar-top" style="height: 54px;">
+																				<span class="time">2012年04月11日 10:35:50</span>
+					<a class="follow-nickName" href="https://me.csdn.net/alaclp" target="_blank">alaclp</a>
+						<span class="read-count">阅读数：1182</span>
+						
+														<span class="tags-box artic-tag-box">
+								<span class="label">标签：</span>
+																<a data-track-click="{&quot;mod&quot;:&quot;popu_626&quot;,&quot;con&quot;:&quot;signal&quot;}" class="tag-link" href="http://so.csdn.net/so/search/s.do?q=signal&amp;t=blog" target="_blank">signal																</a><a data-track-click="{&quot;mod&quot;:&quot;popu_626&quot;,&quot;con&quot;:&quot;processing&quot;}" class="tag-link" href="http://so.csdn.net/so/search/s.do?q=processing&amp;t=blog" target="_blank">processing																</a><a data-track-click="{&quot;mod&quot;:&quot;popu_626&quot;,&quot;con&quot;:&quot;structure&quot;}" class="tag-link" href="http://so.csdn.net/so/search/s.do?q=structure&amp;t=blog" target="_blank">structure																</a><a data-track-click="{&quot;mod&quot;:&quot;popu_626&quot;,&quot;con&quot;:&quot;filter&quot;}" class="tag-link" href="http://so.csdn.net/so/search/s.do?q=filter&amp;t=blog" target="_blank">filter																</a><a data-track-click="{&quot;mod&quot;:&quot;popu_626&quot;,&quot;con&quot;:&quot;image&quot;}" class="tag-link" href="http://so.csdn.net/so/search/s.do?q=image&amp;t=blog" target="_blank">image																</a>
+							<span class="article_info_click">更多</span></span>
+																					<div class="tags-box space">
+								<span class="label">个人分类：</span>
+																<a class="tag-link" href="https://blog.csdn.net/alaclp/article/category/1117717" target="_blank">图像处理																</a><a class="tag-link" href="https://blog.csdn.net/alaclp/article/category/34758" target="_blank">算法																</a><a class="tag-link" href="https://blog.csdn.net/alaclp/article/category/948439" target="_blank">科学计算																</a>
+							</div>
+																								</div>
+				<div class="operating">
+														</div>
+			</div>
+		</div>
+	</div>
+	<article>
+		<div id="article_content" class="article_content clearfix csdn-tracking-statistics" data-pid="blog" data-mod="popu_307" data-dsm="post">
+								            <link rel="stylesheet" href="https://csdnimg.cn/release/phoenix/template/css/ck_htmledit_views-e2445db1a8.css">
+						<div class="htmledit_views __reader_view_article_wrap_6553074841950406__">
+                
+<span style="color:rgb(51,51,51);font-family:Arial;font-size:14px;line-height:26px;"></span>
+<p>（来自wiki &nbsp;total variation denoising）</p>
+<p>&nbsp;</p>
+<p>In signal processing,&nbsp;<strong>Total Variation denoising</strong>, also known as&nbsp;<strong>total variation regularization</strong>&nbsp;is a process, most often used in digital image processing that has applications in noise removal. It is based on the principle
+ that&nbsp;<em><strong>signals with excessive and possibly spurious detail have high total variation</strong></em>, that is,&nbsp;<em><strong>the integral of the absolute gradient of the signal is high</strong></em>. According to this principle, reducing the total variation
+ of the signal subject to it being a close match to the original signal, removes unwanted detail whilst preserving important details such as edges.&nbsp;</p>
+<p>&nbsp;</p>
+<p>Total Variation，顾名思义，即是信号的变化程度之和。对一维信号<span><em>y</em><sub>n，</sub>TV项为</span></p>
+<p><span><sub><em></em></sub></span><img class="tex" src="http://upload.wikimedia.org/math/e/f/3/ef30de33e3c93e7f431be3764e812fa6.png" alt="V(y) = /sum/limits_n/left|y_{n+1}-y_n /right|." style="border-top-style:none;border-right-style:none;border-bottom-style:none;border-left-style:none;"></p>
+<p>总体来讲，由于噪音信号（图像）相邻信号间不平滑，随机变化较大，故total variation比较大，而平滑信号则TV项比较小。通过minimize total variation，可以去除噪音，平滑信号。TV相比median filter和linear smooth的优点是不像这两个一样，在去除噪音的时候同时也会把边缘smooth了，median filter和linear smooth是不会区分边缘和噪音的。而total variation似乎只对噪音比较敏感，而能保留一定得边缘信息（why？）。</p>
+<p>&nbsp;</p>
+<p>如果给定一个带随机噪音的信号&nbsp;<span class="texhtml"><em>x</em><sub><em>n</em></sub></span>, 想找一个接近<em>x</em><sub><em>n</em></sub>的信号<em>y</em><sub><em>n</em></sub>, 但具有更小的total variation. 可以用下面的式子来衡量：</p>
+<p>the sum of square errors:</p>
+<p>&nbsp;</p>
+<p><img class="tex" src="http://upload.wikimedia.org/math/9/4/f/94f486d821b3c9e731923588ea1fc8fe.png" alt="E(x,y) = /frac{1}{2}/sum/limits_n/left(x_n - y_n/right)^2." style="border-top-style:none;border-right-style:none;border-bottom-style:none;border-left-style:none;"></p>
+<p>&nbsp;</p>
+<p>最后整个问题就变为求下式最小值：</p>
+<p><span><strong><em>E</em>(<em>x</em>,<em>y</em>) + λ<em>V</em>(<em>y)</em></strong></span></p>
+<p>一共是两个分量，前者是fidelity constraint，后者为TV项。λ用来调整权重。可用极端思想来考虑：若λ为0，则TV项完全没有起到惩罚作用，求得的信号x等于原信号y；反之，若λ--&gt;无穷，则完全是TV惩罚项起主导作用，求得的信号x会尽可能的满足TV项很小，但fidelity就会很差，可能偏离原先信号很远，甚至连原信号x的基本structure也无法体现，就没法取得消除噪音的效果了。这个式子对y进行求求偏导，可以构造出拉格朗日方程来求解。</p>
+<p>&nbsp;</p>
+<p>&nbsp;</p>
+<p>考虑2维信号的情况（e.g. 图像）</p>
+<p>设y是一幅图像，total variation norm --&gt;&nbsp;</p>
+<p>&nbsp;</p>
+<p><span><img class="tex" src="http://upload.wikimedia.org/math/a/3/7/a37d26040982b2c2a49e676fc2e30f81.png" alt="V(y) = /sum_{i,j} /sqrt{ |y_{i+1,j} - y_{i,j}|^2 + |y_{i,j+1} - y_{i,j}|^2 }" style="border-top-style:none;border-right-style:none;border-bottom-style:none;border-left-style:none;"></span></p>
+<p>或者也可以求解下面方程：</p>
+<p>&nbsp;</p>
+<p><span><img class="tex" src="http://upload.wikimedia.org/math/8/4/4/844aa40d51f15dc563c8776a04573ad0.png" alt="V_/text{an-iso}(y) = /sum_{i,j} /sqrt{ |y_{i+1,j} - y_{i,j}|^2} + /sqrt{|y_{i,j+1} - y_{i,j}|^2 } = /sum_{i,j} |y_{i+1,j} - y_{i,j}| + |y_{i,j+1} - y_{i,j}|." style="border-top-style:none;border-right-style:none;border-bottom-style:none;border-left-style:none;"></span></p>
+<p><span><br></span></p>
+<p>同理，最后整个问题就变为求下式最小值：</p>
+<p>&nbsp;</p>
+<p><span><img class="tex" src="http://upload.wikimedia.org/math/e/a/8/ea86f95f3bfa4ed413c4c688bce7f6a7.png" alt="/min_y /; E(x,y) + /lambda V(y)" style="border-top-style:none;border-right-style:none;border-bottom-style:none;border-left-style:none;"></span></p>
+<p>&nbsp;</p>
+<p>来源：http://blog.csdn.net/afgh2587849/article/category/753221<br></p>
+            </div>
+                </div>
+		
+	</article>
+	
+</div>
