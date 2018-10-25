@@ -1,0 +1,22 @@
+\contentsline {section}{\numberline {第一章}绪论}{1}{section.1}
+\contentsline {subsection}{\numberline {1.1}关于\LaTeX 模板}{1}{subsection.1.1}
+\contentsline {subsection}{\numberline {1.2}关于T\kern -.1667em\lower .5ex\hbox {E}\kern -.125emX\spacefactor \@m {}和\LaTeX }{1}{subsection.1.2}
+\contentsline {subsection}{\numberline {1.3}使用哪个\LaTeX 发行版}{1}{subsection.1.3}
+\contentsline {subsection}{\numberline {1.4}使用哪个T\kern -.1667em\lower .5ex\hbox {E}\kern -.125emX\spacefactor \@m {}编辑器}{2}{subsection.1.4}
+\contentsline {paragraph}{在线编辑环境}{2}{paragraph*.3}
+\contentsline {section}{\numberline {第二章}公式}{2}{section.2}
+\contentsline {section}{\numberline {第三章}算法和伪代码}{3}{section.3}
+\contentsline {subsection}{\numberline {3.1}插入代码}{4}{subsection.3.1}
+\contentsline {subsection}{\numberline {3.2}插入伪代码}{5}{subsection.3.2}
+\contentsline {section}{\numberline {第四章}图表}{5}{section.4}
+\contentsline {subsection}{\numberline {4.1}插入图片}{5}{subsection.4.1}
+\contentsline {subsection}{\numberline {4.2}绘图}{7}{subsection.4.2}
+\contentsline {subsection}{\numberline {4.3}表格}{7}{subsection.4.3}
+\contentsline {subsection}{\numberline {4.4}图表的排版和定位}{8}{subsection.4.4}
+\contentsline {section}{\numberline {第五章}交叉引用}{9}{section.5}
+\contentsline {section}{\numberline {第六章}有用的链接}{10}{section.6}
+\contentsline {section}{\numberline {第七章}参考文献}{10}{section.7}
+\contentsline {section}{参考文献}{11}{section.7}
+\contentsline {section}{作者在攻读硕士学位期间公开发表的论文}{12}{section*.9}
+\contentsline {section}{作者在攻读硕士学位期间所参与的项目}{13}{section*.10}
+\contentsline {section}{致谢}{14}{section*.11}

@@ -1,0 +1,52 @@
+% !Mode:: "TeX:UTF-8"
+\chapter{结构}
+
+\section{FAT32卷的数据结构排序}
+The following table shows the order of the
+data structures that compose a FAT32 disk volume.
+
+%\makeatletter\def\@captype{table}\makeatother
+%\centering
+%\begin{tabular}{ccccc}
+%\hline
+%Boot & Reserved & FAT & FAT & File\& \\
+%Sector & Sectors & (Copy 1) & (Copy 2) & Directory \\
+% & & & & Sectors \\
+%\hline
+%\end{tabular}
+%\label{tab:test}
+
+%\begin{table}[htbp]
+%	\centering
+%	\caption{\label{comparison}Result comparison on LN data}
+%	\begin{tabular}{c|c|c|c|c|c|c|c}
+%		\hline
+%		\multirow{2}{*}{Instance} & \multirow{2}{*}{Original Instance} & \multirow{2}{*}{High Priority} & \multirow{2}{*}{Low Priority} & \multicolumn{2}{|c|}{Benchmark} & \multicolumn{2}{|c}{Our Algorithm} \\
+%		\cline{5-8}
+%		& & & & Utilization & Time(s) & Utilization & Time(s)\\
+%		\hline
+%		LN01\&02  &  LN01 \& LN02    &     LN01      &    LN02     &  99.3\%   & 624 &    &   \\
+%		\hline
+%	\end{tabular}
+%\end{table}
+
+
+\begin{table}[htbp]
+	\centering
+	\caption[排序结构]{模排序结构}
+	\begin{tabular}{ccccc}
+	\hline
+	Boot & Reserved & FAT & FAT & File\& \\
+	Sector & Sectors & (Copy 1) & (Copy 2) & Directory \\
+	& & & & Sectors \\
+	\hline
+	\end{tabular}
+\end{table}
+
+\section{FAT32文件系统由四个不同的部分组成}
+\begin{enumerate}
+	\item 引导扇区位于卷的开头，即第0扇区。 它包括一个名为BPB（BIOS参数块）的区域，它从偏移量11开始，包含一些基本的文件系统信息。 扇区的其余部分通常包含引导加载程序代码
+	\item 保留扇区紧跟引导扇区。 包括引导扇区的卷的保留扇区数由引导扇区的偏移量14处的BPB指示。 通常，保留的扇区包括扇区1的文件系统信息扇区和卷的扇区6的备份引导扇区。
+	\item 文件分配表是一个32位宽的条目数组，跨越BPB指示的多个扇区，位于引导扇区的偏移量36处。 FAT32通常有两个FAT数据结构副本，以便冗余检查磁盘介质，而一个是FLASH介质。 引导扇区的BPB偏移40的第7位指示FAT是否镜像。 该区域为文件系统和后缀32赋予FAT名称
+	\item 文件和目录扇区构成文件系统的其余部分，直到存储实际文件和目录数据的卷的末尾。 FAT32通常会在第一个集群中占用根目录（一个集群是固定数量的连续扇区，该数量由文件和目录扇区的引导扇区的偏移量13处的BPB指示），并由偏移处的BPB指示 引导扇区44。
+\end{enumerate}

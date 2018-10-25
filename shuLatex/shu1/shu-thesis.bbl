@@ -1,0 +1,20 @@
+\begin{thebibliography}{1}
+
+\bibitem{shen2017label}
+W.~Shen, K.~Zhao, Y.~Guo, and A.~Yuille, ``Label distribution learning
+  forests,'' {\em Proceedings of Advances in neural information processing
+  systems}, 2017.
+
+\bibitem{shen2016object}
+W.~Shen, K.~Zhao, Y.~Jiang, Y.~Wang, Z.~Zhang, and X.~Bai, ``Object skeleton
+  extraction in natural images by fusing scale-associated deep side outputs,''
+  {\em Proceedings of the IEEE Conference on Computer Vision and Pattern
+  Recognition}, pp.~222--230, 2016.
+
+\bibitem{shen2017deepskeleton}
+W.~Shen, K.~Zhao, Y.~Jiang, Y.~Wang, X.~Bai, and A.~Yuille, ``Deepskeleton:
+  Learning multi-task scale-associated deep side outputs for object skeleton
+  extraction in natural images,'' {\em IEEE Transactions on Image Processing},
+  vol.~26, no.~11, pp.~5298--5311, 2017.
+
+\end{thebibliography}

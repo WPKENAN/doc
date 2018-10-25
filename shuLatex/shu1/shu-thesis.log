@@ -1,0 +1,2464 @@
+This is pdfTeX, Version 3.14159265-2.6-1.40.19 (TeX Live 2018/W32TeX) (preloaded format=pdflatex 2018.10.24)  24 OCT 2018 22:15
+entering extended mode
+ restricted \write18 enabled.
+ %&-line parsing enabled.
+**shu-thesis.tex
+(./shu-thesis.tex
+LaTeX2e <2018-04-01> patch level 2
+Babel <3.18> and hyphenation patterns for 84 language(s) loaded.
+(d:/wp/texlive/2018/texmf-dist/tex/latex/ctex/ctexart.cls
+(d:/wp/texlive/2018/texmf-dist/tex/latex/l3kernel/expl3.sty
+Package: expl3 2018/03/05 L3 programming layer (loader) 
+
+(d:/wp/texlive/2018/texmf-dist/tex/latex/l3kernel/expl3-code.tex
+Package: expl3 2018/03/05 L3 programming layer (code)
+\c_max_int=\count80
+\l_tmpa_int=\count81
+\l_tmpb_int=\count82
+\g_tmpa_int=\count83
+\g_tmpb_int=\count84
+\g__intarray_font_int=\count85
+\g__prg_map_int=\count86
+\c_log_iow=\count87
+\l_iow_line_count_int=\count88
+\l__iow_line_target_int=\count89
+\l__iow_one_indent_int=\count90
+\l__iow_indent_int=\count91
+\c_zero_dim=\dimen102
+\c_max_dim=\dimen103
+\l_tmpa_dim=\dimen104
+\l_tmpb_dim=\dimen105
+\g_tmpa_dim=\dimen106
+\g_tmpb_dim=\dimen107
+\c_zero_skip=\skip41
+\c_max_skip=\skip42
+\l_tmpa_skip=\skip43
+\l_tmpb_skip=\skip44
+\g_tmpa_skip=\skip45
+\g_tmpb_skip=\skip46
+\c_zero_muskip=\muskip10
+\c_max_muskip=\muskip11
+\l_tmpa_muskip=\muskip12
+\l_tmpb_muskip=\muskip13
+\g_tmpa_muskip=\muskip14
+\g_tmpb_muskip=\muskip15
+\l_keys_choice_int=\count92
+\c__fp_leading_shift_int=\count93
+\c__fp_middle_shift_int=\count94
+\c__fp_trailing_shift_int=\count95
+\c__fp_big_leading_shift_int=\count96
+\c__fp_big_middle_shift_int=\count97
+\c__fp_big_trailing_shift_int=\count98
+\c__fp_Bigg_leading_shift_int=\count99
+\c__fp_Bigg_middle_shift_int=\count100
+\c__fp_Bigg_trailing_shift_int=\count101
+\c__fp_rand_size_int=\count102
+\c__fp_rand_four_int=\count103
+\c__fp_rand_eight_int=\count104
+\l__sort_length_int=\count105
+\l__sort_min_int=\count106
+\l__sort_top_int=\count107
+\l__sort_max_int=\count108
+\l__sort_true_max_int=\count109
+\l__sort_block_int=\count110
+\l__sort_begin_int=\count111
+\l__sort_end_int=\count112
+\l__sort_A_int=\count113
+\l__sort_B_int=\count114
+\l__sort_C_int=\count115
+\l__tl_build_start_index_int=\count116
+\l__tl_build_index_int=\count117
+\l__tl_analysis_normal_int=\count118
+\l__tl_analysis_index_int=\count119
+\l__tl_analysis_nesting_int=\count120
+\l__tl_analysis_type_int=\count121
+\l__regex_internal_a_int=\count122
+\l__regex_internal_b_int=\count123
+\l__regex_internal_c_int=\count124
+\l__regex_balance_int=\count125
+\l__regex_group_level_int=\count126
+\l__regex_mode_int=\count127
+\c__regex_cs_in_class_mode_int=\count128
+\c__regex_cs_mode_int=\count129
+\l__regex_catcodes_int=\count130
+\l__regex_default_catcodes_int=\count131
+\c__regex_catcode_D_int=\count132
+\c__regex_catcode_S_int=\count133
+\c__regex_catcode_L_int=\count134
+\c__regex_catcode_O_int=\count135
+\c__regex_catcode_A_int=\count136
+\c__regex_all_catcodes_int=\count137
+\l__regex_show_lines_int=\count138
+\l__regex_min_state_int=\count139
+\l__regex_max_state_int=\count140
+\l__regex_left_state_int=\count141
+\l__regex_right_state_int=\count142
+\l__regex_capturing_group_int=\count143
+\l__regex_min_pos_int=\count144
+\l__regex_max_pos_int=\count145
+\l__regex_curr_pos_int=\count146
+\l__regex_start_pos_int=\count147
+\l__regex_success_pos_int=\count148
+\l__regex_curr_char_int=\count149
+\l__regex_curr_catcode_int=\count150
+\l__regex_last_char_int=\count151
+\l__regex_case_changed_char_int=\count152
+\l__regex_curr_state_int=\count153
+\l__regex_step_int=\count154
+\l__regex_min_active_int=\count155
+\l__regex_max_active_int=\count156
+\l__regex_replacement_csnames_int=\count157
+\l__regex_match_count_int=\count158
+\l__regex_min_submatch_int=\count159
+\l__regex_submatch_int=\count160
+\l__regex_zeroth_submatch_int=\count161
+\g__regex_trace_regex_int=\count162
+\c_empty_box=\box26
+\l_tmpa_box=\box27
+\l_tmpb_box=\box28
+\g_tmpa_box=\box29
+\g_tmpb_box=\box30
+\l__box_top_dim=\dimen108
+\l__box_bottom_dim=\dimen109
+\l__box_left_dim=\dimen110
+\l__box_right_dim=\dimen111
+\l__box_top_new_dim=\dimen112
+\l__box_bottom_new_dim=\dimen113
+\l__box_left_new_dim=\dimen114
+\l__box_right_new_dim=\dimen115
+\l__box_internal_box=\box31
+\l__coffin_internal_box=\box32
+\l__coffin_internal_dim=\dimen116
+\l__coffin_offset_x_dim=\dimen117
+\l__coffin_offset_y_dim=\dimen118
+\l__coffin_x_dim=\dimen119
+\l__coffin_y_dim=\dimen120
+\l__coffin_x_prime_dim=\dimen121
+\l__coffin_y_prime_dim=\dimen122
+\c_empty_coffin=\box33
+\l__coffin_aligned_coffin=\box34
+\l__coffin_aligned_internal_coffin=\box35
+\l_tmpa_coffin=\box36
+\l_tmpb_coffin=\box37
+\l__coffin_display_coffin=\box38
+\l__coffin_display_coord_coffin=\box39
+\l__coffin_display_pole_coffin=\box40
+\l__coffin_display_offset_dim=\dimen123
+\l__coffin_display_x_dim=\dimen124
+\l__coffin_display_y_dim=\dimen125
+\l__coffin_bounding_shift_dim=\dimen126
+\l__coffin_left_corner_dim=\dimen127
+\l__coffin_right_corner_dim=\dimen128
+\l__coffin_bottom_corner_dim=\dimen129
+\l__coffin_top_corner_dim=\dimen130
+\l__coffin_scaled_total_height_dim=\dimen131
+\l__coffin_scaled_width_dim=\dimen132
+)
+(d:/wp/texlive/2018/texmf-dist/tex/latex/l3kernel/l3pdfmode.def
+File: l3pdfmode.def 2017/03/18 v L3 Experimental driver: PDF mode
+\l__driver_color_stack_int=\count163
+))
+Document Class: ctexart 2018/01/28 v2.4.12 Chinese adapter for class article (C
+TEX)
+(d:/wp/texlive/2018/texmf-dist/tex/latex/l3packages/xparse/xparse.sty
+Package: xparse 2018/02/21 L3 Experimental document command parser
+\l__xparse_current_arg_int=\count164
+\g__xparse_grabber_int=\count165
+\l__xparse_m_args_int=\count166
+\l__xparse_mandatory_args_int=\count167
+\l__xparse_v_nesting_int=\count168
+)
+(d:/wp/texlive/2018/texmf-dist/tex/latex/l3packages/l3keys2e/l3keys2e.sty
+Package: l3keys2e 2018/02/21 LaTeX2e option processing using LaTeX3 keys
+)
+\g__file_internal_ior=\read1
+
+(d:/wp/texlive/2018/texmf-dist/tex/latex/ctex/ctexhook.sty
+Package: ctexhook 2018/01/28 v2.4.12 Document and package hooks (CTEX)
+)
+(d:/wp/texlive/2018/texmf-dist/tex/latex/ctex/ctexpatch.sty
+Package: ctexpatch 2018/01/28 v2.4.12 Patching commands (CTEX)
+)
+(d:/wp/texlive/2018/texmf-dist/tex/latex/base/fix-cm.sty
+Package: fix-cm 2015/01/14 v1.1t fixes to LaTeX
+
+(d:/wp/texlive/2018/texmf-dist/tex/latex/base/ts1enc.def
+File: ts1enc.def 2001/06/05 v3.0e (jk/car/fm) Standard LaTeX file
+Now handling font encoding TS1 ...
+... processing UTF-8 mapping file for font encoding TS1
+
+(d:/wp/texlive/2018/texmf-dist/tex/latex/base/ts1enc.dfu
+File: ts1enc.dfu 2018/04/05 v1.2c UTF-8 support for inputenc
+   defining Unicode char U+00A2 (decimal 162)
+   defining Unicode char U+00A3 (decimal 163)
+   defining Unicode char U+00A4 (decimal 164)
+   defining Unicode char U+00A5 (decimal 165)
+   defining Unicode char U+00A6 (decimal 166)
+   defining Unicode char U+00A7 (decimal 167)
+   defining Unicode char U+00A8 (decimal 168)
+   defining Unicode char U+00A9 (decimal 169)
+   defining Unicode char U+00AA (decimal 170)
+   defining Unicode char U+00AC (decimal 172)
+   defining Unicode char U+00AE (decimal 174)
+   defining Unicode char U+00AF (decimal 175)
+   defining Unicode char U+00B0 (decimal 176)
+   defining Unicode char U+00B1 (decimal 177)
+   defining Unicode char U+00B2 (decimal 178)
+   defining Unicode char U+00B3 (decimal 179)
+   defining Unicode char U+00B4 (decimal 180)
+   defining Unicode char U+00B5 (decimal 181)
+   defining Unicode char U+00B6 (decimal 182)
+   defining Unicode char U+00B7 (decimal 183)
+   defining Unicode char U+00B9 (decimal 185)
+   defining Unicode char U+00BA (decimal 186)
+   defining Unicode char U+00BC (decimal 188)
+   defining Unicode char U+00BD (decimal 189)
+   defining Unicode char U+00BE (decimal 190)
+   defining Unicode char U+00D7 (decimal 215)
+   defining Unicode char U+00F7 (decimal 247)
+   defining Unicode char U+0192 (decimal 402)
+   defining Unicode char U+02C7 (decimal 711)
+   defining Unicode char U+02D8 (decimal 728)
+   defining Unicode char U+02DD (decimal 733)
+   defining Unicode char U+0E3F (decimal 3647)
+   defining Unicode char U+2016 (decimal 8214)
+   defining Unicode char U+2020 (decimal 8224)
+   defining Unicode char U+2021 (decimal 8225)
+   defining Unicode char U+2022 (decimal 8226)
+   defining Unicode char U+2030 (decimal 8240)
+   defining Unicode char U+2031 (decimal 8241)
+   defining Unicode char U+203B (decimal 8251)
+   defining Unicode char U+203D (decimal 8253)
+   defining Unicode char U+2044 (decimal 8260)
+   defining Unicode char U+204E (decimal 8270)
+   defining Unicode char U+2052 (decimal 8274)
+   defining Unicode char U+20A1 (decimal 8353)
+   defining Unicode char U+20A4 (decimal 8356)
+   defining Unicode char U+20A6 (decimal 8358)
+   defining Unicode char U+20A9 (decimal 8361)
+   defining Unicode char U+20AB (decimal 8363)
+   defining Unicode char U+20AC (decimal 8364)
+   defining Unicode char U+20B1 (decimal 8369)
+   defining Unicode char U+2103 (decimal 8451)
+   defining Unicode char U+2116 (decimal 8470)
+   defining Unicode char U+2117 (decimal 8471)
+   defining Unicode char U+211E (decimal 8478)
+   defining Unicode char U+2120 (decimal 8480)
+   defining Unicode char U+2122 (decimal 8482)
+   defining Unicode char U+2126 (decimal 8486)
+   defining Unicode char U+2127 (decimal 8487)
+   defining Unicode char U+212E (decimal 8494)
+   defining Unicode char U+2190 (decimal 8592)
+   defining Unicode char U+2191 (decimal 8593)
+   defining Unicode char U+2192 (decimal 8594)
+   defining Unicode char U+2193 (decimal 8595)
+   defining Unicode char U+2329 (decimal 9001)
+   defining Unicode char U+232A (decimal 9002)
+   defining Unicode char U+2422 (decimal 9250)
+   defining Unicode char U+25E6 (decimal 9702)
+   defining Unicode char U+25EF (decimal 9711)
+   defining Unicode char U+266A (decimal 9834)
+   defining Unicode char U+FEFF (decimal 65279)
+)))
+(d:/wp/texlive/2018/texmf-dist/tex/latex/ms/everysel.sty
+Package: everysel 2011/10/28 v1.2 EverySelectfont Package (MS)
+)
+\l__ctex_tmp_int=\count169
+\l__ctex_tmp_box=\box41
+\l__ctex_tmp_dim=\dimen133
+\g__ctex_font_size_flag=\count170
+
+(d:/wp/texlive/2018/texmf-dist/tex/latex/ctex/config/ctexopts.cfg
+File: ctexopts.cfg 2018/01/28 v2.4.12 Option configuration file (CTEX)
+)
+(d:/wp/texlive/2018/texmf-dist/tex/latex/base/article.cls
+Document Class: article 2014/09/29 v1.4h Standard LaTeX document class
+(d:/wp/texlive/2018/texmf-dist/tex/latex/base/size10.clo
+File: size10.clo 2014/09/29 v1.4h Standard LaTeX file (size option)
+)
+\c@part=\count171
+\c@section=\count172
+\c@subsection=\count173
+\c@subsubsection=\count174
+\c@paragraph=\count175
+\c@subparagraph=\count176
+\c@figure=\count177
+\c@table=\count178
+\abovecaptionskip=\skip47
+\belowcaptionskip=\skip48
+\bibindent=\dimen134
+)
+(d:/wp/texlive/2018/texmf-dist/tex/latex/ctex/engine/ctex-engine-pdftex.def
+File: ctex-engine-pdftex.def 2018/01/28 v2.4.12 (pdf)LaTeX adapter (CTEX)
+
+(d:/wp/texlive/2018/texmf-dist/tex/latex/cjk/texinput/CJKutf8.sty
+Package: CJKutf8 2015/04/18 4.8.4
+
+(d:/wp/texlive/2018/texmf-dist/tex/generic/oberdiek/ifpdf.sty
+Package: ifpdf 2017/03/15 v3.2 Provides the ifpdf switch
+)
+(d:/wp/texlive/2018/texmf-dist/tex/latex/base/inputenc.sty
+Package: inputenc 2018/04/06 v1.3b Input encoding file
+\inpenc@prehook=\toks14
+\inpenc@posthook=\toks15
+)
+(d:/wp/texlive/2018/texmf-dist/tex/latex/cjk/texinput/CJK.sty
+Package: CJK 2015/04/18 4.8.4
+
+(d:/wp/texlive/2018/texmf-dist/tex/latex/cjk/texinput/mule/MULEenc.sty
+Package: MULEenc 2015/04/18 4.8.4
+)
+(d:/wp/texlive/2018/texmf-dist/tex/latex/cjk/texinput/CJK.enc
+File: CJK.enc 2015/04/18 4.8.4
+Now handling font encoding C00 ...
+... no UTF-8 mapping file for font encoding C00
+Now handling font encoding C05 ...
+... no UTF-8 mapping file for font encoding C05
+Now handling font encoding C09 ...
+... no UTF-8 mapping file for font encoding C09
+Now handling font encoding C10 ...
+... no UTF-8 mapping file for font encoding C10
+Now handling font encoding C20 ...
+... no UTF-8 mapping file for font encoding C20
+Now handling font encoding C19 ...
+... no UTF-8 mapping file for font encoding C19
+Now handling font encoding C40 ...
+... no UTF-8 mapping file for font encoding C40
+Now handling font encoding C42 ...
+... no UTF-8 mapping file for font encoding C42
+Now handling font encoding C43 ...
+... no UTF-8 mapping file for font encoding C43
+Now handling font encoding C50 ...
+... no UTF-8 mapping file for font encoding C50
+Now handling font encoding C52 ...
+... no UTF-8 mapping file for font encoding C52
+Now handling font encoding C49 ...
+... no UTF-8 mapping file for font encoding C49
+Now handling font encoding C60 ...
+... no UTF-8 mapping file for font encoding C60
+Now handling font encoding C61 ...
+... no UTF-8 mapping file for font encoding C61
+Now handling font encoding C63 ...
+... no UTF-8 mapping file for font encoding C63
+Now handling font encoding C64 ...
+... no UTF-8 mapping file for font encoding C64
+Now handling font encoding C65 ...
+... no UTF-8 mapping file for font encoding C65
+Now handling font encoding C70 ...
+... no UTF-8 mapping file for font encoding C70
+Now handling font encoding C31 ...
+... no UTF-8 mapping file for font encoding C31
+Now handling font encoding C32 ...
+... no UTF-8 mapping file for font encoding C32
+Now handling font encoding C33 ...
+... no UTF-8 mapping file for font encoding C33
+Now handling font encoding C34 ...
+... no UTF-8 mapping file for font encoding C34
+Now handling font encoding C35 ...
+... no UTF-8 mapping file for font encoding C35
+Now handling font encoding C36 ...
+... no UTF-8 mapping file for font encoding C36
+Now handling font encoding C37 ...
+... no UTF-8 mapping file for font encoding C37
+Now handling font encoding C80 ...
+... no UTF-8 mapping file for font encoding C80
+Now handling font encoding C81 ...
+... no UTF-8 mapping file for font encoding C81
+Now handling font encoding C01 ...
+... no UTF-8 mapping file for font encoding C01
+Now handling font encoding C11 ...
+... no UTF-8 mapping file for font encoding C11
+Now handling font encoding C21 ...
+... no UTF-8 mapping file for font encoding C21
+Now handling font encoding C41 ...
+... no UTF-8 mapping file for font encoding C41
+Now handling font encoding C62 ...
+... no UTF-8 mapping file for font encoding C62
+)
+LaTeX Info: Redefining \selectfont on input line 755.
+\CJK@indent=\box42
+)
+(d:/wp/texlive/2018/texmf-dist/tex/latex/base/fontenc.sty
+Package: fontenc 2017/04/05 v2.0i Standard LaTeX package
+))
+(d:/wp/texlive/2018/texmf-dist/tex/latex/cjkpunct/CJKpunct.sty
+Package: CJKpunct 2016/05/14 4.8.4
+\CJKpunct@cnta=\count179
+\CJKpunct@cntb=\count180
+\CJKpunct@cntc=\count181
+\CJKpunct@cntd=\count182
+\CJKpunct@cnte=\count183
+   defining Unicode char U+2018 (decimal 8216)
+   defining Unicode char U+2019 (decimal 8217)
+   defining Unicode char U+201C (decimal 8220)
+   defining Unicode char U+201D (decimal 8221)
+   defining Unicode char U+2014 (decimal 8212)
+   defining Unicode char U+2026 (decimal 8230)
+
+(d:/wp/texlive/2018/texmf-dist/tex/latex/cjkpunct/CJKpunct.spa))
+(d:/wp/texlive/2018/texmf-dist/tex/latex/cjk/texinput/CJKspace.sty
+Package: CJKspace 2015/04/18 3.8.0
+)
+(d:/wp/texlive/2018/texmf-dist/tex/latex/ctex/ctexspa.def
+File: ctexspa.def 2018/01/28 v2.4.12 Space info for CJKpunct (CTEX)
+)
+(d:/wp/texlive/2018/texmf-dist/tex/latex/cjk/texinput/CJKfntef.sty
+Package: CJKfntef 2015/04/18 4.8.4
+
+(d:/wp/texlive/2018/texmf-dist/tex/latex/cjk/texinput/CJKulem.sty
+Package: CJKulem 2015/04/18 4.8.4
+
+(d:/wp/texlive/2018/texmf-dist/tex/generic/ulem/ulem.sty
+\UL@box=\box43
+\UL@hyphenbox=\box44
+\UL@skip=\skip49
+\UL@hook=\toks16
+\UL@height=\dimen135
+\UL@pe=\count184
+\UL@pixel=\dimen136
+\ULC@box=\box45
+Package: ulem 2012/05/18
+\ULdepth=\dimen137
+)
+\UL@lastkern=\dimen138
+\CJK@skip=\skip50
+)
+\CJK@fntefSkip=\skip51
+\CJK@nest=\count185
+\CJK@fntefDimen=\dimen139
+\CJK@underdotBox=\box46
+\CJK@ULbox=\box47
+\CJK@underanyskip=\dimen140
+)
+\ccwd=\dimen141
+\l__ctex_ccglue_skip=\skip52
+)
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \ctexset with sig. '' on line 388.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \CTEXsetup with sig. '+o>{\TrimSpaces }m' on line 394.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \CTEXoptions with sig. '+o' on line 400.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \CTEXsetfont with sig. '' on line 418.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \ziju with sig. 'm' on line 490.
+.................................................
+\l__ctex_ziju_dim=\dimen142
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \CTEXindent with sig. '' on line 531.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \CTEXnoindent with sig. '' on line 537.
+.................................................
+
+(d:/wp/texlive/2018/texmf-dist/tex/latex/zhnumber/zhnumber.sty
+Package: zhnumber 2018/01/28 v2.6 Typesetting numbers with Chinese glyphs
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \zhnumber with sig. '+o+m' on line 50.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \zhnumberwithoptions with sig. '+m+m' on line 57.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \zhnum with sig. '+o+m' on line 111.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \zhnumwithoptions with sig. '+m+m' on line 118.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \zhdig with sig. '+o+m' on line 295.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \zhdigwithoptions with sig. '+m+m' on line 302.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \zhdigits with sig. '+s+o+m' on line 316.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \zhdigitswithoptions with sig. '+m+m+m' on line 323.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \zhdate with sig. '+s+m' on line 382.
+.................................................
+\l__zhnum_scale_int=\count186
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \zhnumExtendScaleMap with sig. '>{\TrimSpaces }+o+m' on
+. line 504.
+.................................................
+\l__zhnum_byte_min_int=\count187
+\l__zhnum_byte_max_int=\count188
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \zhnumsetup with sig. '+m' on line 934.
+.................................................
+
+(d:/wp/texlive/2018/texmf-dist/tex/latex/zhnumber/zhnumber-utf8.cfg
+File: zhnumber-utf8.cfg 2018/01/28 v2.6 Chinese numerals with UTF8 encoding
+))
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \CTEXnumber with sig. 'mm' on line 554.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \CTEXdigits with sig. 'mm' on line 556.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \ctex_assign_heading_name:nn with sig. 'm>{\SplitArgument
+. {\c_one }{,}}+m' on line 680.
+.................................................
+\l__ctex_heading_skip=\skip53
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \partmark with sig. 'm' on line 711.
+.................................................
+.................................................
+. LaTeX info: "xparse/redefine-command"
+. 
+. Redefining command \refstepcounter with sig. 'm' on line 1201.
+.................................................
+
+(d:/wp/texlive/2018/texmf-dist/tex/latex/ctex/scheme/ctex-scheme-chinese-articl
+e.def
+File: ctex-scheme-chinese-article.def 2018/01/28 v2.4.12 Chinese scheme for art
+icle (CTEX)
+ (d:/wp/texlive/2018/texmf-dist/tex/latex/ctex/config/ctex-name-utf8.cfg
+File: ctex-name-utf8.cfg 2018/01/28 v2.4.12 Caption with encoding UTF8 (CTEX)
+))
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \zihao with sig. 'm' on line 1204.
+.................................................
+(d:/wp/texlive/2018/texmf-dist/tex/latex/ctex/ctex-c5size.clo
+File: ctex-c5size.clo 2018/01/28 v2.4.12 c5size option (CTEX)
+)
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \CTeX with sig. '' on line 1308.
+.................................................
+
+(d:/wp/texlive/2018/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-windows.def
+File: ctex-fontset-windows.def 2018/01/28 v2.4.12 Windows fonts definition (CTE
+X)
+
+(d:/wp/texlive/2018/texmf-dist/tex/latex/ctex/fontset/ctex-fontset-windowsnew.d
+ef
+File: ctex-fontset-windowsnew.def 2018/01/28 v2.4.12 Windows fonts definition f
+or Vista or later version (CTEX)
+ (d:/wp/texlive/2018/texmf-dist/tex/generic/ctex/zhwindowsfonts.tex
+File: zhwindowsfonts.tex 2018/01/28 v2.4.12 Windows font map loader for pdfTeX 
+and DVIPDFMx (CTEX)
+{d:/wp/texlive/2018/texmf-var/fonts/map/pdftex/updmap/pdftex.map}{UGBK.sfd}{Uni
+code.sfd})
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \songti with sig. '' on line 111.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \heiti with sig. '' on line 112.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \fangsong with sig. '' on line 113.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \kaishu with sig. '' on line 114.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \lishu with sig. '' on line 115.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \youyuan with sig. '' on line 116.
+.................................................
+.................................................
+. LaTeX info: "xparse/define-command"
+. 
+. Defining command \yahei with sig. '' on line 117.
+.................................................
+))) (d:/wp/texlive/2018/texmf-dist/tex/latex/ctex/config/ctex.cfg
+File: ctex.cfg 2018/01/28 v2.4.12 Configuration file (CTEX)
+)
+(d:/wp/texlive/2018/texmf-dist/tex/latex/xcolor/xcolor.sty
+Package: xcolor 2016/05/11 v2.12 LaTeX color extensions (UK)
+
+(d:/wp/texlive/2018/texmf-dist/tex/latex/graphics-cfg/color.cfg
+File: color.cfg 2016/01/02 v1.6 sample color configuration
+)
+Package xcolor Info: Driver file: pdftex.def on input line 225.
+
+(d:/wp/texlive/2018/texmf-dist/tex/latex/graphics-def/pdftex.def
+File: pdftex.def 2018/01/08 v1.0l Graphics/color driver for pdftex
+)
+Package xcolor Info: Model `cmy' substituted by `cmy0' on input line 1348.
+Package xcolor Info: Model `hsb' substituted by `rgb' on input line 1352.
+Package xcolor Info: Model `RGB' extended on input line 1364.
+Package xcolor Info: Model `HTML' substituted by `rgb' on input line 1366.
+Package xcolor Info: Model `Hsb' substituted by `hsb' on input line 1367.
+Package xcolor Info: Model `tHsb' substituted by `hsb' on input line 1368.
+Package xcolor Info: Model `HSB' substituted by `hsb' on input line 1369.
+Package xcolor Info: Model `Gray' substituted by `gray' on input line 1370.
+Package xcolor Info: Model `wave' substituted by `hsb' on input line 1371.
+)
+(d:/wp/texlive/2018/texmf-dist/tex/latex/hyperref/hyperref.sty
+Package: hyperref 2018/02/06 v6.86b Hypertext links for LaTeX
+
+(d:/wp/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-hyperref.sty
+Package: hobsub-hyperref 2016/05/16 v1.14 Bundle oberdiek, subset hyperref (HO)
+
+
+(d:/wp/texlive/2018/texmf-dist/tex/generic/oberdiek/hobsub-generic.sty
+Package: hobsub-generic 2016/05/16 v1.14 Bundle oberdiek, subset generic (HO)
+Package: hobsub 2016/05/16 v1.14 Construct package bundles (HO)
+Package: infwarerr 2016/05/16 v1.4 Providing info/warning/error messages (HO)
+Package: ltxcmds 2016/05/16 v1.23 LaTeX kernel commands for general use (HO)
+Package: ifluatex 2016/05/16 v1.4 Provides the ifluatex switch (HO)
+Package ifluatex Info: LuaTeX not detected.
+Package: ifvtex 2016/05/16 v1.6 Detect VTeX and its facilities (HO)
+Package ifvtex Info: VTeX not detected.
+Package: intcalc 2016/05/16 v1.2 Expandable calculations with integers (HO)
+Package hobsub Info: Skipping package `ifpdf' (already loaded).
+Package: etexcmds 2016/05/16 v1.6 Avoid name clashes with e-TeX commands (HO)
+Package etexcmds Info: Could not find \expanded.
+(etexcmds)             That can mean that you are not using pdfTeX 1.50 or
+(etexcmds)             that some package has redefined \expanded.
+(etexcmds)             In the latter case, load this package earlier.
+Package: kvsetkeys 2016/05/16 v1.17 Key value parser (HO)
+Package: kvdefinekeys 2016/05/16 v1.4 Define keys (HO)
+Package: pdftexcmds 2018/01/30 v0.27 Utility functions of pdfTeX for LuaTeX (HO
+)
+Package pdftexcmds Info: LuaTeX not detected.
+Package pdftexcmds Info: \pdf@primitive is available.
+Package pdftexcmds Info: \pdf@ifprimitive is available.
+Package pdftexcmds Info: \pdfdraftmode found.
+Package: pdfescape 2016/05/16 v1.14 Implements pdfTeX's escape features (HO)
+Package: bigintcalc 2016/05/16 v1.4 Expandable calculations on big integers (HO
+)
+Package: bitset 2016/05/16 v1.2 Handle bit-vector datatype (HO)
+Package: uniquecounter 2016/05/16 v1.3 Provide unlimited unique counter (HO)
+)
+Package hobsub Info: Skipping package `hobsub' (already loaded).
+Package: letltxmacro 2016/05/16 v1.5 Let assignment for LaTeX macros (HO)
+Package: hopatch 2016/05/16 v1.3 Wrapper for package hooks (HO)
+Package: xcolor-patch 2016/05/16 xcolor patch
+Package: atveryend 2016/05/16 v1.9 Hooks at the very end of document (HO)
+Package atveryend Info: \enddocument detected (standard20110627).
+Package: atbegshi 2016/06/09 v1.18 At begin shipout hook (HO)
+Package: refcount 2016/05/16 v3.5 Data extraction from label references (HO)
+Package: hycolor 2016/05/16 v1.8 Color options for hyperref/bookmark (HO)
+)
+(d:/wp/texlive/2018/texmf-dist/tex/latex/graphics/keyval.sty
+Package: keyval 2014/10/28 v1.15 key=value parser (DPC)
+\KV@toks@=\toks17
+)
+(d:/wp/texlive/2018/texmf-dist/tex/generic/ifxetex/ifxetex.sty
+Package: ifxetex 2010/09/12 v0.6 Provides ifxetex conditional
+)
+(d:/wp/texlive/2018/texmf-dist/tex/latex/oberdiek/auxhook.sty
+Package: auxhook 2016/05/16 v1.4 Hooks for auxiliary files (HO)
+)
+(d:/wp/texlive/2018/texmf-dist/tex/latex/oberdiek/kvoptions.sty
+Package: kvoptions 2016/05/16 v3.12 Key value format for package options (HO)
+)
+\@linkdim=\dimen143
+\Hy@linkcounter=\count189
+\Hy@pagecounter=\count190
+
+(d:/wp/texlive/2018/texmf-dist/tex/latex/hyperref/pd1enc.def
+File: pd1enc.def 2018/02/06 v6.86b Hyperref: PDFDocEncoding definition (HO)
+Now handling font encoding PD1 ...
+... no UTF-8 mapping file for font encoding PD1
+)
+\Hy@SavedSpaceFactor=\count191
+
+(d:/wp/texlive/2018/texmf-dist/tex/latex/latexconfig/hyperref.cfg
+File: hyperref.cfg 2002/06/06 v1.2 hyperref configuration of TeXLive
+)
+Package hyperref Info: Option `unicode' set `true' on input line 4383.
+
+(d:/wp/texlive/2018/texmf-dist/tex/latex/hyperref/puenc.def
+File: puenc.def 2018/02/06 v6.86b Hyperref: PDF Unicode definition (HO)
+Now handling font encoding PU ...
+... no UTF-8 mapping file for font encoding PU
+)
+
+Package hyperref Warning: Option `letterpaper' is no longer used.
+
+Package hyperref Info: Option `breaklinks' set `true' on input line 4383.
+Package hyperref Info: Option `bookmarks' set `true' on input line 4383.
+Package hyperref Info: Option `colorlinks' set `true' on input line 4383.
+Package hyperref Info: Hyper figures OFF on input line 4509.
+Package hyperref Info: Link nesting OFF on input line 4514.
+Package hyperref Info: Hyper index ON on input line 4517.
+Package hyperref Info: Plain pages OFF on input line 4524.
+Package hyperref Info: Backreferencing ON on input line 4527.
+Package hyperref Info: Implicit mode ON; LaTeX internals redefined.
+Package hyperref Info: Bookmarks ON on input line 4762.
+(d:/wp/texlive/2018/texmf-dist/tex/latex/hyperref/backref.sty
+Package: backref 2016/05/21 v1.39 Bibliographical back referencing
+
+(d:/wp/texlive/2018/texmf-dist/tex/latex/oberdiek/rerunfilecheck.sty
+Package: rerunfilecheck 2016/05/16 v1.8 Rerun checks for auxiliary files (HO)
+Package uniquecounter Info: New unique counter `rerunfilecheck' on input line 2
+82.
+))
+\c@Hy@tempcnt=\count192
+
+(d:/wp/texlive/2018/texmf-dist/tex/latex/url/url.sty
+\Urlmuskip=\muskip16
+Package: url 2013/09/16  ver 3.4  Verb mode for urls, etc.
+)
+LaTeX Info: Redefining \url on input line 5115.
+\XeTeXLinkMargin=\dimen144
+\Fld@menulength=\count193
+\Field@Width=\dimen145
+\Fld@charsize=\dimen146
+Package hyperref Info: Hyper figures OFF on input line 6369.
+Package hyperref Info: Link nesting OFF on input line 6374.
+Package hyperref Info: Hyper index ON on input line 6377.
+Package hyperref Info: backreferencing ON on input line 6382.
+Package hyperref Info: Link coloring ON on input line 6387.
+Package hyperref Info: Link coloring with OCG OFF on input line 6394.
+Package hyperref Info: PDF/A mode OFF on input line 6399.
+LaTeX Info: Redefining \ref on input line 6439.
+LaTeX Info: Redefining \pageref on input line 6443.
+\Hy@abspage=\count194
+\c@Item=\count195
+\c@Hfootnote=\count196
+)
+Package hyperref Info: Driver (autodetected): hpdftex.
+
+(d:/wp/texlive/2018/texmf-dist/tex/latex/hyperref/hpdftex.def
+File: hpdftex.def 2018/02/06 v6.86b Hyperref driver for pdfTeX
+\Fld@listcount=\count197
+\c@bookmark@seq@number=\count198
+\Hy@SectionHShift=\skip54
+)
+(d:/wp/texlive/2018/texmf-dist/tex/latex/natbib/bibentry.sty
+Package: bibentry 2007/10/30 1.5 (PWD)
+)
+(d:/wp/texlive/2018/texmf-dist/tex/latex/pdfpages/pdfpages.sty
+Package: pdfpages 2017/10/31 v0.5l Insert pages of external PDF documents (AM)
+
+(d:/wp/texlive/2018/texmf-dist/tex/latex/base/ifthen.sty
+Package: ifthen 2014/09/29 v1.1c Standard LaTeX ifthen package (DPC)
+)
+(d:/wp/texlive/2018/texmf-dist/tex/latex/tools/calc.sty
+Package: calc 2017/05/25 v4.3 Infix arithmetic (KKT,FJ)
+\calc@Acount=\count199
+\calc@Bcount=\count266
+\calc@Adimen=\dimen147
+\calc@Bdimen=\dimen148
+\calc@Askip=\skip55
+\calc@Bskip=\skip56
+LaTeX Info: Redefining \setlength on input line 80.
+LaTeX Info: Redefining \addtolength on input line 81.
+\calc@Ccount=\count267
+\calc@Cskip=\skip57
+)
+(d:/wp/texlive/2018/texmf-dist/tex/latex/eso-pic/eso-pic.sty
+Package: eso-pic 2015/07/21 v2.0g eso-pic (RN)
+)
+(d:/wp/texlive/2018/texmf-dist/tex/latex/graphics/graphicx.sty
+Package: graphicx 2017/06/01 v1.1a Enhanced LaTeX Graphics (DPC,SPQR)
+
+(d:/wp/texlive/2018/texmf-dist/tex/latex/graphics/graphics.sty
+Package: graphics 2017/06/25 v1.2c Standard LaTeX Graphics (DPC,SPQR)
+
+(d:/wp/texlive/2018/texmf-dist/tex/latex/graphics/trig.sty
+Package: trig 2016/01/03 v1.10 sin cos tan (DPC)
+)
+(d:/wp/texlive/2018/texmf-dist/tex/latex/graphics-cfg/graphics.cfg
+File: graphics.cfg 2016/06/04 v1.11 sample graphics configuration
+)
+Package graphics Info: Driver file: pdftex.def on input line 99.
+)
+\Gin@req@height=\dimen149
+\Gin@req@width=\dimen150
+)
+\AM@pagewidth=\dimen151
+\AM@pageheight=\dimen152
+
+(d:/wp/texlive/2018/texmf-dist/tex/latex/pdfpages/pppdftex.def
+File: pppdftex.def 2017/10/31 v0.5l Pdfpages driver for pdfTeX (AM)
+)
+\AM@pagebox=\box48
+\AM@global@opts=\toks18
+\AM@toc@title=\toks19
+\c@AM@survey=\count268
+\AM@templatesizebox=\box49
+)
+(d:/wp/texlive/2018/texmf-dist/tex/latex/amsmath/amsmath.sty
+Package: amsmath 2017/09/02 v2.17a AMS math features
+\@mathmargin=\skip58
+
+For additional information on amsmath, use the `?' option.
+(d:/wp/texlive/2018/texmf-dist/tex/latex/amsmath/amstext.sty
+Package: amstext 2000/06/29 v2.01 AMS text
+
+(d:/wp/texlive/2018/texmf-dist/tex/latex/amsmath/amsgen.sty
+File: amsgen.sty 1999/11/30 v2.0 generic functions
+\@emptytoks=\toks20
+\ex@=\dimen153
+))
+(d:/wp/texlive/2018/texmf-dist/tex/latex/amsmath/amsbsy.sty
+Package: amsbsy 1999/11/29 v1.2d Bold Symbols
+\pmbraise@=\dimen154
+)
+(d:/wp/texlive/2018/texmf-dist/tex/latex/amsmath/amsopn.sty
+Package: amsopn 2016/03/08 v2.02 operator names
+)
+\inf@bad=\count269
+LaTeX Info: Redefining \frac on input line 213.
+\uproot@=\count270
+\leftroot@=\count271
+LaTeX Info: Redefining \overline on input line 375.
+\classnum@=\count272
+\DOTSCASE@=\count273
+LaTeX Info: Redefining \ldots on input line 472.
+LaTeX Info: Redefining \dots on input line 475.
+LaTeX Info: Redefining \cdots on input line 596.
+\Mathstrutbox@=\box50
+\strutbox@=\box51
+\big@size=\dimen155
+LaTeX Font Info:    Redeclaring font encoding OML on input line 712.
+LaTeX Font Info:    Redeclaring font encoding OMS on input line 713.
+\macc@depth=\count274
+\c@MaxMatrixCols=\count275
+\dotsspace@=\muskip17
+\c@parentequation=\count276
+\dspbrk@lvl=\count277
+\tag@help=\toks21
+\row@=\count278
+\column@=\count279
+\maxfields@=\count280
+\andhelp@=\toks22
+\eqnshift@=\dimen156
+\alignsep@=\dimen157
+\tagshift@=\dimen158
+\tagwidth@=\dimen159
+\totwidth@=\dimen160
+\lineht@=\dimen161
+\@envbody=\toks23
+\multlinegap=\skip59
+\multlinetaggap=\skip60
+\mathdisplay@stack=\toks24
+LaTeX Info: Redefining \[ on input line 2817.
+LaTeX Info: Redefining \] on input line 2818.
+)
+(d:/wp/texlive/2018/texmf-dist/tex/latex/tools/bm.sty
+Package: bm 2017/01/16 v1.2c Bold Symbol Support (DPC/FMi)
+\symboldoperators=\mathgroup4
+\symboldletters=\mathgroup5
+\symboldsymbols=\mathgroup6
+LaTeX Font Info:    Redeclaring math alphabet \mathbf on input line 141.
+LaTeX Info: Redefining \bm on input line 207.
+)
+(d:/wp/texlive/2018/texmf-dist/tex/latex/amsfonts/amssymb.sty
+Package: amssymb 2013/01/14 v3.01 AMS font symbols
+
+(d:/wp/texlive/2018/texmf-dist/tex/latex/amsfonts/amsfonts.sty
+Package: amsfonts 2013/01/14 v3.01 Basic AMSFonts support
+\symAMSa=\mathgroup7
+\symAMSb=\mathgroup8
+LaTeX Font Info:    Overwriting math alphabet `\mathfrak' in version `bold'
+(Font)                  U/euf/m/n --> U/euf/b/n on input line 106.
+))
+(d:/wp/texlive/2018/texmf-dist/tex/latex/psnfss/pifont.sty
+Package: pifont 2005/04/12 PSNFSS-v9.2a Pi font support (SPQR) 
+LaTeX Font Info:    Try loading font information for U+pzd on input line 63.
+
+(d:/wp/texlive/2018/texmf-dist/tex/latex/psnfss/upzd.fd
+File: upzd.fd 2001/06/04 font definitions for U/pzd.
+)
+LaTeX Font Info:    Try loading font information for U+psy on input line 64.
+
+(d:/wp/texlive/2018/texmf-dist/tex/latex/psnfss/upsy.fd
+File: upsy.fd 2001/06/04 font definitions for U/psy.
+))
+(d:/wp/texlive/2018/texmf-dist/tex/latex/listings/listings.sty
+\lst@mode=\count281
+\lst@gtempboxa=\box52
+\lst@token=\toks25
+\lst@length=\count282
+\lst@currlwidth=\dimen162
+\lst@column=\count283
+\lst@pos=\count284
+\lst@lostspace=\dimen163
+\lst@width=\dimen164
+\lst@newlines=\count285
+\lst@lineno=\count286
+\lst@maxwidth=\dimen165
+
+(d:/wp/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+\c@lstnumber=\count287
+\lst@skipnumbers=\count288
+\lst@framebox=\box53
+)
+(d:/wp/texlive/2018/texmf-dist/tex/latex/listings/listings.cfg
+File: listings.cfg 2015/06/04 1.6 listings configuration
+))
+Package: listings 2015/06/04 1.6 (Carsten Heinz)
+
+(d:/wp/texlive/2018/texmf-dist/tex/latex/algorithm2e/algorithm2e.sty
+Package: algorithm2e 2017/07/18 v5.2 algorithms environments
+\c@AlgoLine=\count289
+\algocf@hangindent=\skip61
+
+(d:/wp/texlive/2018/texmf-dist/tex/latex/ifoddpage/ifoddpage.sty
+Package: ifoddpage 2016/04/23 v1.1 Conditionals for odd/even page detection
+\c@checkoddpage=\count290
+)
+(d:/wp/texlive/2018/texmf-dist/tex/latex/tools/xspace.sty
+Package: xspace 2014/10/28 v1.13 Space after command names (DPC,MH)
+)
+(d:/wp/texlive/2018/texmf-dist/tex/latex/relsize/relsize.sty
+Package: relsize 2013/03/29 ver 4.1
+)
+\skiptotal=\skip62
+\skiplinenumber=\skip63
+\skiprule=\skip64
+\skiphlne=\skip65
+\skiptext=\skip66
+\skiplength=\skip67
+\algomargin=\skip68
+\skipalgocfslide=\skip69
+\algowidth=\dimen166
+\inoutsize=\dimen167
+\inoutindent=\dimen168
+\interspacetitleruled=\dimen169
+\interspacealgoruled=\dimen170
+\interspacetitleboxruled=\dimen171
+\algocf@ruledwidth=\skip70
+\algocf@inoutbox=\box54
+\algocf@inputbox=\box55
+\AlCapSkip=\skip71
+\AlCapHSkip=\skip72
+\algoskipindent=\skip73
+\algocf@nlbox=\box56
+\algocf@hangingbox=\box57
+\algocf@untilbox=\box58
+\algocf@skipuntil=\skip74
+\algocf@capbox=\box59
+\algocf@lcaptionbox=\skip75
+\algoheightruledefault=\skip76
+\algoheightrule=\skip77
+\algotitleheightruledefault=\skip78
+\algotitleheightrule=\skip79
+\c@algocfline=\count291
+\c@algocfproc=\count292
+\c@algocf=\count293
+\algocf@algoframe=\box60
+\algocf@algobox=\box61
+)
+(d:/wp/texlive/2018/texmf-dist/tex/latex/diagbox/diagbox.sty
+Package: diagbox 2016/12/28 v2.2 Making table heads with diagonal lines
+
+(d:/wp/texlive/2018/texmf-dist/tex/latex/pict2e/pict2e.sty
+Package: pict2e 2016/02/05 v0.3b Improved picture commands (HjG,RN,JT)
+
+(d:/wp/texlive/2018/texmf-dist/tex/latex/pict2e/pict2e.cfg
+File: pict2e.cfg 2016/02/05 v0.1u pict2e configuration for teTeX/TeXLive
+)
+Package pict2e Info: Driver file: pdftex.def on input line 119.
+Package pict2e Info: Driver file for pict2e: p2e-pdftex.def on input line 121.
+
+(d:/wp/texlive/2018/texmf-dist/tex/latex/pict2e/p2e-pdftex.def
+File: p2e-pdftex.def 2016/02/05 v0.1u Driver-dependant file (RN,HjG,JT)
+)
+\pIIe@GRAPH=\toks26
+\@arclen=\dimen172
+\@arcrad=\dimen173
+\@tempdimd=\dimen174
+)
+(d:/wp/texlive/2018/texmf-dist/tex/latex/fp/fp.sty
+Package: fp 1995/04/02
+
+`Fixed Point Package', Version 0.8, April 2, 1995 (C) Michael Mehlich
+(d:/wp/texlive/2018/texmf-dist/tex/latex/fp/defpattern.sty
+Package: defpattern 1994/10/12
+\actioncount=\count294
+)
+(d:/wp/texlive/2018/texmf-dist/tex/latex/fp/fp-basic.sty
+Package: fp-basic 1996/05/13
+\FP@xs=\count295
+\FP@xia=\count296
+\FP@xib=\count297
+\FP@xfa=\count298
+\FP@xfb=\count299
+\FP@rega=\count300
+\FP@regb=\count301
+\FP@regs=\count302
+\FP@times=\count303
+)
+(d:/wp/texlive/2018/texmf-dist/tex/latex/fp/fp-addons.sty
+Package: fp-addons 1995/03/15
+)
+(d:/wp/texlive/2018/texmf-dist/tex/latex/fp/fp-snap.sty
+Package: fp-snap 1995/04/05
+)
+(d:/wp/texlive/2018/texmf-dist/tex/latex/fp/fp-exp.sty
+Package: fp-exp 1995/04/03
+)
+(d:/wp/texlive/2018/texmf-dist/tex/latex/fp/fp-trigo.sty
+Package: fp-trigo 1995/04/14
+)
+(d:/wp/texlive/2018/texmf-dist/tex/latex/fp/fp-pas.sty
+Package: fp-pas 1994/08/29
+)
+(d:/wp/texlive/2018/texmf-dist/tex/latex/fp/fp-random.sty
+Package: fp-random 1995/02/23
+\FPseed=\count304
+)
+(d:/wp/texlive/2018/texmf-dist/tex/latex/fp/fp-eqn.sty
+Package: fp-eqn 1995/04/03
+)
+(d:/wp/texlive/2018/texmf-dist/tex/latex/fp/fp-upn.sty
+Package: fp-upn 1996/10/21
+)
+(d:/wp/texlive/2018/texmf-dist/tex/latex/fp/fp-eval.sty
+Package: fp-eval 1995/04/03
+))
+(d:/wp/texlive/2018/texmf-dist/tex/latex/tools/array.sty
+Package: array 2018/04/07 v2.4g Tabular extension package (FMi)
+\col@sep=\dimen175
+\ar@mcellbox=\box62
+\extrarowheight=\dimen176
+\NC@list=\toks27
+\extratabsurround=\skip80
+\backup@length=\skip81
+\ar@cellbox=\box63
+)
+\diagbox@boxa=\box64
+\diagbox@boxb=\box65
+\diagbox@boxm=\box66
+\diagbox@wd=\dimen177
+\diagbox@ht=\dimen178
+\diagbox@insepl=\dimen179
+\diagbox@insepr=\dimen180
+\diagbox@outsepl=\dimen181
+\diagbox@outsepr=\dimen182
+)
+(d:/wp/texlive/2018/texmf-dist/tex/latex/caption/caption.sty
+Package: caption 2016/02/21 v3.3-144 Customizing captions (AR)
+
+(d:/wp/texlive/2018/texmf-dist/tex/latex/caption/caption3.sty
+Package: caption3 2016/05/22 v1.7-166 caption3 kernel (AR)
+Package caption3 Info: TeX engine: e-TeX on input line 67.
+\captionmargin=\dimen183
+\captionmargin@=\dimen184
+\captionwidth=\dimen185
+\caption@tempdima=\dimen186
+\caption@indent=\dimen187
+\caption@parindent=\dimen188
+\caption@hangindent=\dimen189
+)
+\c@ContinuedFloat=\count305
+Package caption Info: hyperref package is loaded.
+Package caption Info: listings package is loaded.
+)
+(d:/wp/texlive/2018/texmf-dist/tex/latex/subfigure/subfigure.sty
+Package: subfigure 2002/03/15 v2.1.5 subfigure package
+\subfigtopskip=\skip82
+\subfigcapskip=\skip83
+\subfigcaptopadj=\dimen190
+\subfigbottomskip=\skip84
+\subfigcapmargin=\dimen191
+\subfiglabelskip=\skip85
+\c@subfigure=\count306
+\c@lofdepth=\count307
+\c@subtable=\count308
+\c@lotdepth=\count309
+
+****************************************
+* Local config file subfigure.cfg used *
+****************************************
+(d:/wp/texlive/2018/texmf-dist/tex/latex/subfigure/subfigure.cfg)
+\subfig@top=\skip86
+\subfig@bottom=\skip87
+)
+(d:/wp/texlive/2018/texmf-dist/tex/latex/float/float.sty
+Package: float 2001/11/08 v1.3d Float enhancements (AL)
+\c@float@type=\count310
+\float@exts=\toks28
+\float@box=\box67
+\@float@everytoks=\toks29
+\@floatcapt=\box68
+)
+(d:/wp/texlive/2018/texmf-dist/tex/latex/overpic/overpic.sty
+Package: overpic 2017/10/06 1.0 picture overlays
+
+(d:/wp/texlive/2018/texmf-dist/tex/latex/eepic/epic.sty
+Enhancements to Picture Environment. Version 1.2 - Released June 1, 1986
+\@@multicnt=\count311
+\d@lta=\count312
+\@delta=\dimen192
+\@@delta=\dimen193
+\@gridcnt=\count313
+\@joinkind=\count314
+\@dotgap=\dimen194
+\@ddotgap=\dimen195
+\@x@diff=\count315
+\@y@diff=\count316
+\x@diff=\dimen196
+\y@diff=\dimen197
+\@dotbox=\box69
+\num@segments=\count317
+\num@segmentsi=\count318
+\@datafile=\read2
+)) (d:/wp/texlive/2018/texmf-dist/tex/latex/pgfplots/pgfplots.sty
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgfplots/pgfplots.revision.tex)
+Package: pgfplots 2018/03/28 v1.16 Data Visualization (1.16)
+
+(d:/wp/texlive/2018/texmf-dist/tex/latex/pgf/frontendlayer/tikz.sty
+(d:/wp/texlive/2018/texmf-dist/tex/latex/pgf/basiclayer/pgf.sty
+(d:/wp/texlive/2018/texmf-dist/tex/latex/pgf/utilities/pgfrcs.sty
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfutil-common.tex
+\pgfutil@everybye=\toks30
+\pgfutil@tempdima=\dimen198
+\pgfutil@tempdimb=\dimen199
+
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfutil-common-lists.t
+ex)) (d:/wp/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfutil-latex.def
+\pgfutil@abb=\box70
+(d:/wp/texlive/2018/texmf-dist/tex/latex/ms/everyshi.sty
+Package: everyshi 2001/05/15 v3.00 EveryShipout Package (MS)
+))
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfrcs.code.tex
+Package: pgfrcs 2015/08/07 v3.0.1a (rcs-revision 1.31)
+))
+Package: pgf 2015/08/07 v3.0.1a (rcs-revision 1.15)
+
+(d:/wp/texlive/2018/texmf-dist/tex/latex/pgf/basiclayer/pgfcore.sty
+(d:/wp/texlive/2018/texmf-dist/tex/latex/pgf/systemlayer/pgfsys.sty
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsys.code.tex
+Package: pgfsys 2014/07/09 v3.0.1a (rcs-revision 1.48)
+
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex
+\pgfkeys@pathtoks=\toks31
+\pgfkeys@temptoks=\toks32
+
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfkeysfiltered.code.t
+ex
+\pgfkeys@tmptoks=\toks33
+))
+\pgf@x=\dimen256
+\pgf@y=\dimen257
+\pgf@xa=\dimen258
+\pgf@ya=\dimen259
+\pgf@xb=\dimen260
+\pgf@yb=\dimen261
+\pgf@xc=\dimen262
+\pgf@yc=\dimen263
+\w@pgf@writea=\write3
+\r@pgf@reada=\read3
+\c@pgf@counta=\count319
+\c@pgf@countb=\count320
+\c@pgf@countc=\count321
+\c@pgf@countd=\count322
+\t@pgf@toka=\toks34
+\t@pgf@tokb=\toks35
+\t@pgf@tokc=\toks36
+ (d:/wp/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgf.cfg
+File: pgf.cfg 2008/05/14  (rcs-revision 1.7)
+)
+Driver file for pgf: pgfsys-pdftex.def
+
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-pdftex.def
+File: pgfsys-pdftex.def 2014/10/11  (rcs-revision 1.35)
+
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsys-common-pdf.de
+f
+File: pgfsys-common-pdf.def 2013/10/10  (rcs-revision 1.13)
+)))
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsyssoftpath.code.
+tex
+File: pgfsyssoftpath.code.tex 2013/09/09  (rcs-revision 1.9)
+\pgfsyssoftpath@smallbuffer@items=\count323
+\pgfsyssoftpath@bigbuffer@items=\count324
+)
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgf/systemlayer/pgfsysprotocol.code.
+tex
+File: pgfsysprotocol.code.tex 2006/10/16  (rcs-revision 1.4)
+))
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcore.code.tex
+Package: pgfcore 2010/04/11 v3.0.1a (rcs-revision 1.7)
+
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathcalc.code.tex
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathutil.code.tex)
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathparser.code.tex
+\pgfmath@dimen=\dimen264
+\pgfmath@count=\count325
+\pgfmath@box=\box71
+\pgfmath@toks=\toks37
+\pgfmath@stack@operand=\toks38
+\pgfmath@stack@operation=\toks39
+)
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.code.tex
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.basic.code
+.tex)
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.trigonomet
+ric.code.tex)
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.random.cod
+e.tex)
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.comparison
+.code.tex)
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.base.code.
+tex)
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.round.code
+.tex)
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.misc.code.
+tex)
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfunctions.integerari
+thmetics.code.tex)))
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count326
+))
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepoints.code.te
+x
+File: pgfcorepoints.code.tex 2013/10/07  (rcs-revision 1.27)
+\pgf@picminx=\dimen265
+\pgf@picmaxx=\dimen266
+\pgf@picminy=\dimen267
+\pgf@picmaxy=\dimen268
+\pgf@pathminx=\dimen269
+\pgf@pathmaxx=\dimen270
+\pgf@pathminy=\dimen271
+\pgf@pathmaxy=\dimen272
+\pgf@xx=\dimen273
+\pgf@xy=\dimen274
+\pgf@yx=\dimen275
+\pgf@yy=\dimen276
+\pgf@zx=\dimen277
+\pgf@zy=\dimen278
+)
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathconstruct.
+code.tex
+File: pgfcorepathconstruct.code.tex 2013/10/07  (rcs-revision 1.29)
+\pgf@path@lastx=\dimen279
+\pgf@path@lasty=\dimen280
+)
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathusage.code
+.tex
+File: pgfcorepathusage.code.tex 2014/11/02  (rcs-revision 1.24)
+\pgf@shorten@end@additional=\dimen281
+\pgf@shorten@start@additional=\dimen282
+)
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorescopes.code.te
+x
+File: pgfcorescopes.code.tex 2015/05/08  (rcs-revision 1.46)
+\pgfpic=\box72
+\pgf@hbox=\box73
+\pgf@layerbox@main=\box74
+\pgf@picture@serial@count=\count327
+)
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoregraphicstate.c
+ode.tex
+File: pgfcoregraphicstate.code.tex 2014/11/02  (rcs-revision 1.12)
+\pgflinewidth=\dimen283
+)
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransformation
+s.code.tex
+File: pgfcoretransformations.code.tex 2015/08/07  (rcs-revision 1.20)
+\pgf@pt@x=\dimen284
+\pgf@pt@y=\dimen285
+\pgf@pt@temp=\dimen286
+)
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorequick.code.tex
+File: pgfcorequick.code.tex 2008/10/09  (rcs-revision 1.3)
+)
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreobjects.code.t
+ex
+File: pgfcoreobjects.code.tex 2006/10/11  (rcs-revision 1.2)
+)
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepathprocessing
+.code.tex
+File: pgfcorepathprocessing.code.tex 2013/09/09  (rcs-revision 1.9)
+)
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorearrows.code.te
+x
+File: pgfcorearrows.code.tex 2015/05/14  (rcs-revision 1.43)
+\pgfarrowsep=\dimen287
+)
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreshade.code.tex
+File: pgfcoreshade.code.tex 2013/07/15  (rcs-revision 1.15)
+\pgf@max=\dimen288
+\pgf@sys@shading@range@num=\count328
+)
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreimage.code.tex
+File: pgfcoreimage.code.tex 2013/07/15  (rcs-revision 1.18)
+
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoreexternal.code.
+tex
+File: pgfcoreexternal.code.tex 2014/07/09  (rcs-revision 1.21)
+\pgfexternal@startupbox=\box75
+))
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorelayers.code.te
+x
+File: pgfcorelayers.code.tex 2013/07/18  (rcs-revision 1.7)
+)
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcoretransparency.c
+ode.tex
+File: pgfcoretransparency.code.tex 2013/09/30  (rcs-revision 1.5)
+)
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgf/basiclayer/pgfcorepatterns.code.
+tex
+File: pgfcorepatterns.code.tex 2013/11/07  (rcs-revision 1.5)
+)))
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgf/modules/pgfmoduleshapes.code.tex
+File: pgfmoduleshapes.code.tex 2014/03/21  (rcs-revision 1.35)
+\pgfnodeparttextbox=\box76
+) (d:/wp/texlive/2018/texmf-dist/tex/generic/pgf/modules/pgfmoduleplot.code.tex
+File: pgfmoduleplot.code.tex 2015/08/03  (rcs-revision 1.13)
+)
+(d:/wp/texlive/2018/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-0-65
+.sty
+Package: pgfcomp-version-0-65 2007/07/03 v3.0.1a (rcs-revision 1.7)
+\pgf@nodesepstart=\dimen289
+\pgf@nodesepend=\dimen290
+)
+(d:/wp/texlive/2018/texmf-dist/tex/latex/pgf/compatibility/pgfcomp-version-1-18
+.sty
+Package: pgfcomp-version-1-18 2007/07/23 v3.0.1a (rcs-revision 1.1)
+)) (d:/wp/texlive/2018/texmf-dist/tex/latex/pgf/utilities/pgffor.sty
+(d:/wp/texlive/2018/texmf-dist/tex/latex/pgf/utilities/pgfkeys.sty
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgfkeys.code.tex))
+(d:/wp/texlive/2018/texmf-dist/tex/latex/pgf/math/pgfmath.sty
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex))
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgf/utilities/pgffor.code.tex
+Package: pgffor 2013/12/13 v3.0.1a (rcs-revision 1.25)
+
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgf/math/pgfmath.code.tex)
+\pgffor@iter=\dimen291
+\pgffor@skip=\dimen292
+\pgffor@stack=\toks40
+\pgffor@toks=\toks41
+))
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/tikz.code.tex
+Package: tikz 2015/08/07 v3.0.1a (rcs-revision 1.151)
+
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgf/libraries/pgflibraryplothandlers
+.code.tex
+File: pgflibraryplothandlers.code.tex 2013/08/31 v3.0.1a (rcs-revision 1.20)
+\pgf@plot@mark@count=\count329
+\pgfplotmarksize=\dimen293
+)
+\tikz@lastx=\dimen294
+\tikz@lasty=\dimen295
+\tikz@lastxsaved=\dimen296
+\tikz@lastysaved=\dimen297
+\tikzleveldistance=\dimen298
+\tikzsiblingdistance=\dimen299
+\tikz@figbox=\box77
+\tikz@figbox@bg=\box78
+\tikz@tempbox=\box79
+\tikz@tempbox@bg=\box80
+\tikztreelevel=\count330
+\tikznumberofchildren=\count331
+\tikznumberofcurrentchild=\count332
+\tikz@fig@count=\count333
+
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgf/modules/pgfmodulematrix.code.tex
+File: pgfmodulematrix.code.tex 2013/09/17  (rcs-revision 1.8)
+\pgfmatrixcurrentrow=\count334
+\pgfmatrixcurrentcolumn=\count335
+\pgf@matrix@numberofcolumns=\count336
+)
+\tikz@expandcount=\count337
+
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarytopaths.code.tex
+File: tikzlibrarytopaths.code.tex 2008/06/17 v3.0.1a (rcs-revision 1.2)
+)))
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgfplots/pgfplots.code.tex
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgfplots/pgfplotscore.code.tex
+\t@pgfplots@toka=\toks42
+\t@pgfplots@tokb=\toks43
+\t@pgfplots@tokc=\toks44
+\pgfplots@tmpa=\dimen300
+\c@pgfplots@coordindex=\count338
+\c@pgfplots@scanlineindex=\count339
+
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgfplots/sys/pgfplotssysgeneric.code
+.tex))
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgfplots/libs/pgfplotslibrary.code.t
+ex)
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_loader.code.tex
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgf/libraries/pgflibraryfpu.code.tex
+)
+Package pgfplots: loading complementary arithmetics for your pgf version...
+
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_pgflibraryfpu.code.tex)
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_pgfmathfloat.code.tex
+\c@pgfmathroundto@lastzeros=\count340
+)
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgfplots/oldpgfcompatib/pgfplotsoldp
+gfsupp_leq.code.tex))
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.code.tex
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotslists
+tructure.code.tex)
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotslists
+tructureext.code.tex)
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsarray
+.code.tex
+\c@pgfplotsarray@tmp=\count341
+)
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsmatri
+x.code.tex)
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgfplots/numtable/pgfplotstableshare
+d.code.tex
+\c@pgfplotstable@counta=\count342
+\t@pgfplotstable@a=\toks45
+)
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgfplots/liststructure/pgfplotsdeque
+.code.tex)
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.code.te
+x
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgfplots/util/pgfplotsbinary.data.co
+de.tex))
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgfplots/util/pgfplotsutil.verb.code
+.tex)
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgfplots/libs/pgflibrarypgfplots.sur
+fshading.code.tex
+\c@pgfplotslibrarysurf@no=\count343
+
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgfplots/sys/pgflibrarypgfplots.surf
+shading.pgfsys-pdftex.def)))
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgfplots/util/pgfplotscolormap.code.
+tex
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgfplots/util/pgfplotscolor.code.tex
+))
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgfplots/pgfplotsstackedplots.code.t
+ex)
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgfplots/pgfplotsplothandlers.code.t
+ex
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplothandler.cod
+e.tex
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgfplots/pgfplotsmeshplotimage.code.
+tex)))
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgfplots/pgfplots.scaling.code.tex)
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgfplots/pgfplotscoordprocessing.cod
+e.tex)
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgfplots/pgfplots.errorbars.code.tex
+) (d:/wp/texlive/2018/texmf-dist/tex/generic/pgfplots/pgfplots.markers.code.tex
+) (d:/wp/texlive/2018/texmf-dist/tex/generic/pgfplots/pgfplotsticks.code.tex)
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgfplots/pgfplots.paths.code.tex)
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.code.tex
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgf/modules/pgfmoduledecorations.cod
+e.tex
+\pgfdecoratedcompleteddistance=\dimen301
+\pgfdecoratedremainingdistance=\dimen302
+\pgfdecoratedinputsegmentcompleteddistance=\dimen303
+\pgfdecoratedinputsegmentremainingdistance=\dimen304
+\pgf@decorate@distancetomove=\dimen305
+\pgf@decorate@repeatstate=\count344
+\pgfdecorationsegmentamplitude=\dimen306
+\pgfdecorationsegmentlength=\dimen307
+)
+\tikz@lib@dec@box=\box81
+)
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.pathmorphing.code.tex
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.pathmorphing.code.tex))
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibrarydecorations.pathreplacing.code.tex
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgf/libraries/decorations/pgflibrary
+decorations.pathreplacing.code.tex))
+\pgfplots@numplots=\count345
+\pgfplots@xmin@reg=\dimen308
+\pgfplots@xmax@reg=\dimen309
+\pgfplots@ymin@reg=\dimen310
+\pgfplots@ymax@reg=\dimen311
+\pgfplots@zmin@reg=\dimen312
+\pgfplots@zmax@reg=\dimen313
+)
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgf/frontendlayer/tikz/libraries/tik
+zlibraryplotmarks.code.tex
+File: tikzlibraryplotmarks.code.tex 2008/01/09 v3.0.1a (rcs-revision 1.1)
+
+(d:/wp/texlive/2018/texmf-dist/tex/generic/pgf/libraries/pgflibraryplotmarks.co
+de.tex
+File: pgflibraryplotmarks.code.tex 2015/08/03 v3.0.1a (rcs-revision 1.14)
+))) (d:/wp/texlive/2018/texmf-dist/tex/latex/geometry/geometry.sty
+Package: geometry 2018/03/24 v5.7 Page Geometry
+\Gm@cnth=\count346
+\Gm@cntv=\count347
+\c@Gm@tempcnt=\count348
+\Gm@bindingoffset=\dimen314
+\Gm@wd@mp=\dimen315
+\Gm@odd@mp=\dimen316
+\Gm@even@mp=\dimen317
+\Gm@layoutwidth=\dimen318
+\Gm@layoutheight=\dimen319
+\Gm@layouthoffset=\dimen320
+\Gm@layoutvoffset=\dimen321
+\Gm@dimlist=\toks46
+)
+(d:/wp/texlive/2018/texmf-dist/tex/latex/fancyhdr/fancyhdr.sty
+Package: fancyhdr 2017/06/30 v3.9a Extensive control of page headers and footer
+s
+\f@nch@headwidth=\skip88
+\f@nch@O@elh=\skip89
+\f@nch@O@erh=\skip90
+\f@nch@O@olh=\skip91
+\f@nch@O@orh=\skip92
+\f@nch@O@elf=\skip93
+\f@nch@O@erf=\skip94
+\f@nch@O@olf=\skip95
+\f@nch@O@orf=\skip96
+)
+*************************************************
+* ctex warning: "deprecated-command"
+* 
+* Command \CTEXsetup is deprecated.
+* \ctexset { section = { name={Á¨¨, Á´†} } } is set.
+*************************************************
+*************************************************
+* ctex warning: "deprecated-command"
+* 
+* Command \CTEXsetup is deprecated.
+* \ctexset { section = { number={\chinese {section}} } } is set.
+*************************************************
+*************************************************
+* ctex warning: "deprecated-command"
+* 
+* Command \CTEXsetup is deprecated.
+* \ctexset { section = { format+={\zihao {-2}} } } is set.
+*************************************************
+*************************************************
+* ctex warning: "deprecated-command"
+* 
+* Command \CTEXsetup is deprecated.
+* \ctexset { section = { beforeskip={17pt} } } is set.
+*************************************************
+*************************************************
+* ctex warning: "deprecated-command"
+* 
+* Command \CTEXsetup is deprecated.
+* \ctexset { section = { afterskip={16.5pt} } } is set.
+*************************************************
+*************************************************
+* ctex warning: "deprecated-command"
+* 
+* Command \CTEXsetup is deprecated.
+* \ctexset { subsection = { format+={\zihao {3}} } } is set.
+*************************************************
+*************************************************
+* ctex warning: "deprecated-command"
+* 
+* Command \CTEXsetup is deprecated.
+* \ctexset { subsection = { beforeskip={13pt} } } is set.
+*************************************************
+*************************************************
+* ctex warning: "deprecated-command"
+* 
+* Command \CTEXsetup is deprecated.
+* \ctexset { subsection = { afterskip={13pt} } } is set.
+*************************************************
+*************************************************
+* ctex warning: "deprecated-command"
+* 
+* Command \CTEXsetup is deprecated.
+* \ctexset { subsubsection = { beforeskip={13pt} } } is set.
+*************************************************
+*************************************************
+* ctex warning: "deprecated-command"
+* 
+* Command \CTEXsetup is deprecated.
+* \ctexset { subsubsection = { afterskip={13pt} } } is set.
+*************************************************
+*************************************************
+* ctex warning: "deprecated-command"
+* 
+* Command \CTEXsetup is deprecated.
+* \ctexset { subsection = { format+={\zihao {3}} } } is set.
+*************************************************
+*************************************************
+* ctex warning: "deprecated-command"
+* 
+* Command \CTEXsetup is deprecated.
+* \ctexset { subsubsection = { format+={\zihao {-4}} } } is set.
+*************************************************
+(d:/wp/texlive/2018/texmf-dist/tex/latex/chngcntr/chngcntr.sty
+Package: chngcntr 2009/09/02 v1.0a change counter resetting
+)
+(d:/wp/texlive/2018/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.bdg
+File: UTF8.bdg 2015/04/18 4.8.4
+)
+(d:/wp/texlive/2018/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.enc
+File: UTF8.enc 2015/04/18 4.8.4
+)
+(d:/wp/texlive/2018/texmf-dist/tex/latex/cjk/texinput/UTF8/UTF8.chr
+File: UTF8.chr 2015/04/18 4.8.4
+)
+(./shu-thesis.aux)
+\openout1 = `shu-thesis.aux'.
+
+LaTeX Font Info:    Checking defaults for OML/cmm/m/it on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for T1/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OT1/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OMS/cmsy/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for OMX/cmex/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for U/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for TS1/cmr/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for C00/song/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for C05/song/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for C09/song/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for C10/song/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for C20/song/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for C19/song/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for C40/song/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for C42/song/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for C43/song/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for C50/song/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for C52/song/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for C49/song/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for C60/mj/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for C61/mj/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for C63/mj/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for C64/mj/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for C65/mj/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for C70/song/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for C31/song/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for C32/song/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for C33/song/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for C34/song/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for C35/song/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for C36/song/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for C37/song/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for C80/song/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for C81/song/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for C01/song/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for C11/song/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for C21/song/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for C41/song/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for C62/song/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for PD1/pdf/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+LaTeX Font Info:    Checking defaults for PU/pdf/m/n on input line 109.
+LaTeX Font Info:    ... okay on input line 109.
+ ABD: EverySelectfont initializing macros
+LaTeX Info: Redefining \selectfont on input line 109.
+
+(d:/wp/texlive/2018/texmf-dist/tex/context/base/mkii/supp-pdf.mkii
+[Loading MPS to PDF converter (version 2006.09.02).]
+\scratchcounter=\count349
+\scratchdimen=\dimen322
+\scratchbox=\box82
+\nofMPsegments=\count350
+\nofMParguments=\count351
+\everyMPshowfont=\toks47
+\MPscratchCnt=\count352
+\MPscratchDim=\dimen323
+\MPnumerator=\count353
+\makeMPintoPDFobject=\count354
+\everyMPtoPDFconversion=\toks48
+) (d:/wp/texlive/2018/texmf-dist/tex/latex/oberdiek/epstopdf-base.sty
+Package: epstopdf-base 2016/05/15 v2.6 Base part for package epstopdf
+
+(d:/wp/texlive/2018/texmf-dist/tex/latex/oberdiek/grfext.sty
+Package: grfext 2016/05/16 v1.2 Manage graphics extensions (HO)
+)
+Package epstopdf-base Info: Redefining graphics rule for `.eps' on input line 4
+38.
+Package grfext Info: Graphics extension search list:
+(grfext)             [.pdf,.png,.jpg,.mps,.jpeg,.jbig2,.jb2,.PDF,.PNG,.JPG,.JPE
+G,.JBIG2,.JB2,.eps]
+(grfext)             \AppendGraphicsExtensions on input line 456.
+
+(d:/wp/texlive/2018/texmf-dist/tex/latex/latexconfig/epstopdf-sys.cfg
+File: epstopdf-sys.cfg 2010/07/13 v1.3 Configuration of (r)epstopdf for TeX Liv
+e
+))
+\AtBeginShipoutBox=\box83
+Package hyperref Info: Link coloring ON on input line 109.
+
+(d:/wp/texlive/2018/texmf-dist/tex/latex/hyperref/nameref.sty
+Package: nameref 2016/05/21 v2.44 Cross-referencing by name of section
+
+(d:/wp/texlive/2018/texmf-dist/tex/generic/oberdiek/gettitlestring.sty
+Package: gettitlestring 2016/05/16 v1.5 Cleanup title references (HO)
+)
+\c@section@level=\count355
+)
+LaTeX Info: Redefining \ref on input line 109.
+LaTeX Info: Redefining \pageref on input line 109.
+LaTeX Info: Redefining \nameref on input line 109.
+
+(./shu-thesis.out) (./shu-thesis.out)
+\@outlinefile=\write4
+\openout4 = `shu-thesis.out'.
+
+
+(d:/wp/texlive/2018/texmf-dist/tex/latex/oberdiek/pdflscape.sty
+Package: pdflscape 2016/05/14 v0.11 Display of landscape pages in PDF (HO)
+
+(d:/wp/texlive/2018/texmf-dist/tex/latex/graphics/lscape.sty
+Package: lscape 2000/10/22 v3.01 Landscape Pages (DPC)
+)
+Package pdflscape Info: Auto-detected driver: pdftex on input line 81.
+)
+\c@lstlisting=\count356
+Package caption Info: Begin \AtBeginDocument code.
+Package caption Info: float package is loaded.
+Package caption Info: subfigure package is loaded.
+Package caption Info: End \AtBeginDocument code.
+
+ABD: EveryShipout initializing macros
+
+Package pgfplots Warning: running in backwards compatibility mode (unsuitable t
+ick labels; missing features). Consider writing \pgfplotsset{compat=1.16} into 
+your preamble.
+ on input line 109.
+
+*geometry* driver: auto-detecting
+*geometry* detected driver: pdftex
+*geometry* verbose mode - [ preamble ] result:
+* driver: pdftex
+* paper: <default>
+* layout: <same size as paper>
+* layoutoffset:(h,v)=(0.0pt,0.0pt)
+* modes: 
+* h-part:(L,W,R)=(90.19518pt, 433.90465pt, 90.19518pt)
+* v-part:(T,H,B)=(85.35826pt, 624.25346pt, 85.35826pt)
+* \paperwidth=614.295pt
+* \paperheight=794.96999pt
+* \textwidth=433.90465pt
+* \textheight=624.25346pt
+* \oddsidemargin=17.92519pt
+* \evensidemargin=17.92519pt
+* \topmargin=-23.91173pt
+* \headheight=12.0pt
+* \headsep=25.0pt
+* \topskip=10.0pt
+* \footskip=30.0pt
+* \marginparwidth=65.0pt
+* \marginparsep=11.0pt
+* \columnsep=10.0pt
+* \skip\footins=9.0pt plus 4.0pt minus 2.0pt
+* \hoffset=0.0pt
+* \voffset=0.0pt
+* \mag=1000
+* \@twocolumnfalse
+* \@twosidefalse
+* \@mparswitchfalse
+* \@reversemarginfalse
+* (1in=72.27pt=25.4mm, 1cm=28.453pt)
+
+<cover.pdf, id=90, 597.55246pt x 845.07718pt>
+File: cover.pdf Graphic file (type pdf)
+<use cover.pdf>
+Package pdftex.def Info: cover.pdf  used on input line 115.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+File: cover.pdf Graphic file (type pdf)
+<use cover.pdf>
+Package pdftex.def Info: cover.pdf  used on input line 115.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+<cover.pdf, id=93, page=1, 597.55246pt x 845.07718pt>
+File: cover.pdf Graphic file (type pdf)
+<use cover.pdf, page 1>
+Package pdftex.def Info: cover.pdf , page1 used on input line 115.
+(pdftex.def)             Requested size: 597.551pt x 845.07512pt.
+File: cover.pdf Graphic file (type pdf)
+<use cover.pdf, page 1>
+Package pdftex.def Info: cover.pdf , page1 used on input line 115.
+(pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
+File: cover.pdf Graphic file (type pdf)
+<use cover.pdf, page 1>
+Package pdftex.def Info: cover.pdf , page1 used on input line 115.
+(pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
+File: cover.pdf Graphic file (type pdf)
+<use cover.pdf, page 1>
+Package pdftex.def Info: cover.pdf , page1 used on input line 115.
+(pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
+File: cover.pdf Graphic file (type pdf)
+<use cover.pdf, page 1>
+Package pdftex.def Info: cover.pdf , page1 used on input line 115.
+(pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
+(d:/wp/texlive/2018/texmf-dist/tex/generic/ctex/zhwindowsfonts.tex
+File: zhwindowsfonts.tex 2018/01/28 v2.4.12 Windows font map loader for pdfTeX 
+and DVIPDFMx (CTEX)
+) [1
+
+ <./cover.pdf>]
+<cover.pdf, id=157, page=2, 597.55246pt x 845.07718pt>
+File: cover.pdf Graphic file (type pdf)
+<use cover.pdf, page 2>
+Package pdftex.def Info: cover.pdf , page2 used on input line 115.
+(pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
+File: cover.pdf Graphic file (type pdf)
+<use cover.pdf, page 2>
+Package pdftex.def Info: cover.pdf , page2 used on input line 115.
+(pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
+File: cover.pdf Graphic file (type pdf)
+<use cover.pdf, page 2>
+Package pdftex.def Info: cover.pdf , page2 used on input line 115.
+(pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
+ [2 <./cover.pdf>]
+<cover.pdf, id=163, page=3, 597.55246pt x 845.07718pt>
+File: cover.pdf Graphic file (type pdf)
+<use cover.pdf, page 3>
+Package pdftex.def Info: cover.pdf , page3 used on input line 115.
+(pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
+File: cover.pdf Graphic file (type pdf)
+<use cover.pdf, page 3>
+Package pdftex.def Info: cover.pdf , page3 used on input line 115.
+(pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
+File: cover.pdf Graphic file (type pdf)
+<use cover.pdf, page 3>
+Package pdftex.def Info: cover.pdf , page3 used on input line 115.
+(pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
+ [3 <./cover.pdf>]
+<cover.pdf, id=170, page=4, 597.55246pt x 845.07718pt>
+File: cover.pdf Graphic file (type pdf)
+<use cover.pdf, page 4>
+Package pdftex.def Info: cover.pdf , page4 used on input line 115.
+(pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
+File: cover.pdf Graphic file (type pdf)
+<use cover.pdf, page 4>
+Package pdftex.def Info: cover.pdf , page4 used on input line 115.
+(pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
+File: cover.pdf Graphic file (type pdf)
+<use cover.pdf, page 4>
+Package pdftex.def Info: cover.pdf , page4 used on input line 115.
+(pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
+ [4 <./cover.pdf>]
+<cover.pdf, id=180, page=5, 597.55246pt x 845.07718pt>
+File: cover.pdf Graphic file (type pdf)
+<use cover.pdf, page 5>
+Package pdftex.def Info: cover.pdf , page5 used on input line 115.
+(pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
+File: cover.pdf Graphic file (type pdf)
+<use cover.pdf, page 5>
+Package pdftex.def Info: cover.pdf , page5 used on input line 115.
+(pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
+File: cover.pdf Graphic file (type pdf)
+<use cover.pdf, page 5>
+Package pdftex.def Info: cover.pdf , page5 used on input line 115.
+(pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
+ [5 <./cover.pdf>]
+<cover.pdf, id=186, page=6, 597.55246pt x 845.07718pt>
+File: cover.pdf Graphic file (type pdf)
+<use cover.pdf, page 6>
+Package pdftex.def Info: cover.pdf , page6 used on input line 115.
+(pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
+File: cover.pdf Graphic file (type pdf)
+<use cover.pdf, page 6>
+Package pdftex.def Info: cover.pdf , page6 used on input line 115.
+(pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
+File: cover.pdf Graphic file (type pdf)
+<use cover.pdf, page 6>
+Package pdftex.def Info: cover.pdf , page6 used on input line 115.
+(pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
+
+[6 <./cover.pdf>]
+<cover.pdf, id=192, page=7, 597.55246pt x 845.07718pt>
+File: cover.pdf Graphic file (type pdf)
+<use cover.pdf, page 7>
+Package pdftex.def Info: cover.pdf , page7 used on input line 115.
+(pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
+File: cover.pdf Graphic file (type pdf)
+<use cover.pdf, page 7>
+Package pdftex.def Info: cover.pdf , page7 used on input line 115.
+(pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
+File: cover.pdf Graphic file (type pdf)
+<use cover.pdf, page 7>
+Package pdftex.def Info: cover.pdf , page7 used on input line 115.
+(pdftex.def)             Requested size: 562.1644pt x 795.0303pt.
+ [7 <./cover.pdf>]
+LaTeX Font Info:    Try loading font information for C70+rm on input line 135.
+
+(d:/wp/texlive/2018/texmf-dist/tex/latex/ctex/fd/c70rm.fd
+File: c70rm.fd 2018/01/28 v2.4.12 Chinese font definition (CTEX)
+) (./shu-thesis.toc
+LaTeX Font Info:    Try loading font information for U+msa on input line 2.
+
+(d:/wp/texlive/2018/texmf-dist/tex/latex/amsfonts/umsa.fd
+File: umsa.fd 2013/01/14 v3.01 AMS symbols A
+)
+LaTeX Font Info:    Try loading font information for U+msb on input line 2.
+
+(d:/wp/texlive/2018/texmf-dist/tex/latex/amsfonts/umsb.fd
+File: umsb.fd 2013/01/14 v3.01 AMS symbols B
+))
+\tf@toc=\write5
+\openout5 = `shu-thesis.toc'.
+
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 12.64723pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[7]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 12.64723pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[8]
+Package CJKpunct Info: use punctuation spaces for family 'rm' with punctstyle (
+quanjiao) on input line 142.
+LaTeX Font Info:    Try loading font information for OMS+cmr on input line 152.
+
+ (d:/wp/texlive/2018/texmf-dist/tex/latex/base/omscmr.fd
+File: omscmr.fd 2014/09/29 v2.5h Standard LaTeX font definitions
+)
+LaTeX Font Info:    Font shape `OMS/cmr/m/n' in size <12.045> not available
+(Font)              Font shape `OMS/cmsy/m/n' tried instead on input line 152.
+
+Overfull \hbox (17.41339pt too wide) in paragraph at lines 148--154
+[][][]\OT1/cmr/m/n/12.045 T[]X[][]\C70/rm/m/n/12.045/66 / \C70/rm/m/n/12.045/75
+ 1 \C70/rm/m/n/12.045/56 ˛ \C70/rm/m/n/12.045/70 u \C70/rm/m/n/12.045/59 V \C70
+/rm/m/n/12.045/5f ó \C70/rm/m/n/12.045/4e ;|\C70/rm/m/n/12.045/ff ^^L| \C70/rm/
+m/n/12.045/7a  \C70/rm/m/n/12.045/5e è\OT1/cmr/m/n/12.045 (program)\C70/rm/m/n
+/12.045/54 å \C70/rm/m/n/12.045/7b ó \C70/rm/m/n/12.045/6c ’\OT1/cmr/m/n/12.045
+ (algorithm)\C70/rm/m/n/12.045/8f Ÿ \C70/rm/m/n/12.045/4e $ * \C70/rm/m/n/12.04
+5/69 Ç \C70/rm/m/n/12.045/5f ı \C70/rm/m/n/12.045/76 Ñ \C70/rm/m/n/12.045/63 – 
+\C70/rm/m/n/12.045/51 ˙ \C70/rm/m/n/12.045/80 ^^E|\C70/rm/m/n/12.045/ff ^^L||\C
+70/rm/m/n/12.045/30 
+|\C70/rm/m/n/12.045/8b °
+ []
+
+
+Overfull \hbox (9.90149pt too wide) in paragraph at lines 177--182
+\C70/rm/m/n/12.045/4e ÷ \C70/rm/m/n/12.045/76 Ñ \C70/rm/m/n/12.045/90 	 \C70/rm
+/m/n/12.045/62 È|\C70/rm/m/n/12.045/ff ^^L| \C70/rm/m/n/12.045/6b ‘ \C70/rm/m/n
+/12.045/59 Ç\OT1/cmr/m/n/12.045 Windows\C70/rm/m/n/12.045/5e s \C70/rm/m/n/12.0
+45/53  \C70/rm/m/n/12.045/4e 
+ \C70/rm/m/n/12.045/6b ‘ \C70/rm/m/n/12.045/8f É \C70/rm/m/n/12.045/5e 8 \C70/r
+m/m/n/12.045/75 ( \C70/rm/m/n/12.045/76 Ñ[][]\OT1/cmr/m/n/12.045 WinEdit[][]|\C
+70/rm/m/n/12.045/30 ^^B|  \OT1/cmr/m/n/12.045 Vim\C70/rm/m/n/12.045/75 ( \C70/r
+m/m/n/12.045/62 7 \C70/rm/m/n/12.045/8f ÿ \C70/rm/m/n/12.045/53 Ô \C70/rm/m/n/1
+2.045/4e Â \C70/rm/m/n/12.045/4f ^^? \C70/rm/m/n/12.045/75 ([][]\OT1/cmr/m/n/12
+.045 VimTex[][]\C70/rm/m/n/12.045/63 “
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 12.64723pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.1}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.182 
+       [1]
+Overfull \hbox (5.91164pt too wide) in paragraph at lines 183--193
+ \C70/rm/bx/n/10.53937/57 ( \C70/rm/bx/n/10.53937/7e ø \C70/rm/bx/n/10.53937/7f
+ ^^V \C70/rm/bx/n/10.53937/8f ë \C70/rm/bx/n/10.53937/73 Ø \C70/rm/bx/n/10.5393
+7/58 É[] \C70/rm/m/n/12.045/73 ∞ \C70/rm/m/n/12.045/57 ( \C70/rm/m/n/12.045/67 
+	 \C70/rm/m/n/12.045/5f à \C70/rm/m/n/12.045/59 ^^Z \C70/rm/m/n/12.045/4e Â[][]
+$\OT1/cmtt/m/n/12.045 https : / / overleaf . com$[][]\C70/rm/m/n/12.045/4e : „ 
+\C70/rm/m/n/12.045/88 h \C70/rm/m/n/12.045/76 Ñ \C70/rm/m/n/12.045/57 ( \C70/rm
+/m/n/12.045/7e ø \C70/rm/m/n/12.045/76 Ñ\OT1/cmr/m/n/12.045 L[]T[]X\C70/rm/m/n/
+12.045/51 ô \C70/rm/m/n/12.045/4f \ \C70/rm/m/n/12.045/5e s \C70/rm/m/n/12.045/
+53 |\C70/rm/m/n/12.045/30 ^^B|
+ []
+
+
+Overfull \hbox (2.2387pt too wide) in paragraph at lines 200--202
+[]\OT1/cmr/m/n/12.045 L[]T[]X\C70/rm/m/n/12.045/4e - \C70/rm/m/n/12.045/76 Ñ \C
+70/rm/m/n/12.045/51 l \C70/rm/m/n/12.045/5f ^^O \C70/rm/m/n/12.045/4e ; \C70/rm
+/m/n/12.045/89 Å \C70/rm/m/n/12.045/52 ^^F \C70/rm/m/n/12.045/4e : $ \C70/rm/m/
+n/12.045/7c {|\C70/rm/m/n/12.045/ff ^^Z| []\C70/rm/m/n/12.045/88 L \C70/rm/m/n/
+12.045/51 Ö l \C70/rm/m/n/12.045/5f ^^O[]\C70/rm/m/n/12.045/54 å[]\C70/rm/m/n/1
+2.045/88 L \C70/rm/m/n/12.045/95 Ù \C70/rm/m/n/12.045/51 l \C70/rm/m/n/12.045/5
+f ^^O[]|\C70/rm/m/n/12.045/30 ^^B| \C70/rm/m/n/12.045/8f Ÿ \C70/rm/m/n/12.045/6
+6 / \C70/rm/m/n/12.045/4e ^^@ * \C70/rm/m/n/12.045/88 L \C70/rm/m/n/12.045/51 Ö
+ l \C70/rm/m/n/12.045/5f ^^O$\OML/cmm/m/it/12.045 f\OT1/cmr/m/n/12.045 (\OML/cm
+m/m/it/12.045 x\OT1/cmr/m/n/12.045 ) =
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 12.64723pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.2}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.223 \end{equation}
+                     [2]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 12.64723pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.3}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.268 \subsection
+                 {ÊèíÂÖ•‰ª£Á†Å} [3]
+(d:/wp/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+(d:/wp/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+)
+Package hyperref Info: bookmark level for unknown lstlisting defaults to 0 on i
+nput line 295.
+LaTeX Font Info:    Font shape `OT1/cmtt/bx/n' in size <7.52812> not available
+(Font)              Font shape `OT1/cmtt/m/n' tried instead on input line 296.
+
+(d:/wp/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 12.64723pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.4}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.334 plt.
+          show() [4]
+<figures/pr-curve.pdf, id=498, 1671.78679pt x 340.11568pt>
+File: figures/pr-curve.pdf Graphic file (type pdf)
+<use figures/pr-curve.pdf>
+Package pdftex.def Info: figures/pr-curve.pdf  used on input line 362.
+(pdftex.def)             Requested size: 433.90465pt x 88.2723pt.
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+
+Overfull \hbox (9.06265pt too wide) in paragraph at lines 366--372
+\C70/rm/m/n/12.045/5c ^^O|\C70/rm/m/n/12.045/30 ^^B| \C70/rm/m/n/12.045/59 Ç \C
+70/rm/m/n/12.045/67 ú \C70/rm/m/n/12.045/4f ` ^^? \C70/rm/m/n/12.045/75 (\OT1/c
+mr/m/n/12.045 Python\C70/rm/m/n/12.045/76 Ñ\OT1/cmr/m/n/12.045 Matplotlib\C70/r
+m/m/n/12.045/75 ; \C70/rm/m/n/12.045/56 ˛|\C70/rm/m/n/12.045/ff ^^L| \C70/rm/m/
+n/12.045/90 £ \C70/rm/m/n/12.045/4e H \C70/rm/m/n/12.045/53 Ô \C70/rm/m/n/12.04
+5/4e Â \C70/rm/m/n/12.045/76 Ù \C70/rm/m/n/12.045/63 • \C70/rm/m/n/12.045/75 (\
+OT1/cmr/m/n/12.045 matplotlib.pyplot.savefig()
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 12.64723pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.5}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.372 
+       [5]
+<figures/convergence.pdf, id=520, 433.62pt x 289.08pt>
+File: figures/convergence.pdf Graphic file (type pdf)
+<use figures/convergence.pdf>
+Package pdftex.def Info: figures/convergence.pdf  used on input line 379.
+(pdftex.def)             Requested size: 260.17401pt x 173.44933pt.
+<figures/mplot3d.pdf, id=525, 321.13123pt x 219.4831pt>
+File: figures/mplot3d.pdf Graphic file (type pdf)
+<use figures/mplot3d.pdf>
+Package pdftex.def Info: figures/mplot3d.pdf  used on input line 393.
+(pdftex.def)             Requested size: 108.47615pt x 74.14099pt.
+<figures/bar3d.pdf, id=526, 312.06758pt x 215.59796pt>
+File: figures/bar3d.pdf Graphic file (type pdf)
+<use figures/bar3d.pdf>
+Package pdftex.def Info: figures/bar3d.pdf  used on input line 394.
+(pdftex.def)             Requested size: 108.47615pt x 74.94063pt.
+<figures/surface3d.pdf, id=527, 299.44202pt x 215.92218pt>
+File: figures/surface3d.pdf Graphic file (type pdf)
+<use figures/surface3d.pdf>
+Package pdftex.def Info: figures/surface3d.pdf  used on input line 395.
+(pdftex.def)             Requested size: 108.47615pt x 78.21953pt.
+<figures/trisurf3d.pdf, id=528, 302.03238pt x 213.97932pt>
+File: figures/trisurf3d.pdf Graphic file (type pdf)
+<use figures/trisurf3d.pdf>
+Package pdftex.def Info: figures/trisurf3d.pdf  used on input line 396.
+(pdftex.def)             Requested size: 108.47615pt x 76.84964pt.
+
+Overfull \hbox (35.99995pt too wide) in paragraph at lines 392--401
+ [][] 
+ []
+
+
+LaTeX Warning: `!h' float specifier changed to `!ht'.
+
+(d:/wp/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+(d:/wp/texlive/2018/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2015/06/04 1.6 listings language file
+)
+(d:/wp/texlive/2018/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2015/06/04 1.6 listings language file
+)
+(d:/wp/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+(d:/wp/texlive/2018/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2015/06/04 1.6 listings language file
+)
+(d:/wp/texlive/2018/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2015/06/04 1.6 listings language file
+)
+(d:/wp/texlive/2018/texmf-dist/tex/latex/listings/lstlang1.sty
+File: lstlang1.sty 2015/06/04 1.6 listings language file
+)
+(d:/wp/texlive/2018/texmf-dist/tex/latex/listings/lstlang2.sty
+File: lstlang2.sty 2015/06/04 1.6 listings language file
+)
+(d:/wp/texlive/2018/texmf-dist/tex/latex/listings/lstlang3.sty
+File: lstlang3.sty 2015/06/04 1.6 listings language file
+)
+(d:/wp/texlive/2018/texmf-dist/tex/latex/listings/lstmisc.sty
+File: lstmisc.sty 2015/06/04 1.6 (Carsten Heinz)
+)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 12.64723pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.6}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.410     \i
+            ncludegraphics[width=.25\textwidth]{figures/bar3d}  & [6 <./figures
+/pr-curve.pdf> <./figures/convergence.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/convergence.pdf): PDF inclusion: m
+ultiple pdfs with page group included in a single page
+>]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 12.64723pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+pdfTeX warning (ext4): destination with the same identifier (name{page.7}) has 
+been already used, duplicate ignored
+<to be read again> 
+                   \relax 
+l.493     \h
+            line [7 <./figures/mplot3d.pdf> <./figures/bar3d.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/bar3d.pdf): PDF inclusion: multipl
+e pdfs with page group included in a single page
+> <./figures/surface3d.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/surface3d.pdf): PDF inclusion: mul
+tiple pdfs with page group included in a single page
+> <./figures/trisurf3d.pdf
+
+pdfTeX warning: pdflatex.exe (file ./figures/trisurf3d.pdf): PDF inclusion: mul
+tiple pdfs with page group included in a single page
+>]
+Overfull \hbox (12.85657pt too wide) in paragraph at lines 527--531
+[]\OT1/cmr/m/n/12.045 L[]T[]X\C70/rm/m/n/12.045/56 ˛ \C70/rm/m/n/12.045/88 h \C
+70/rm/m/n/12.045/4f ^^? \C70/rm/m/n/12.045/75 ( \C70/rm/m/n/12.045/4f M \C70/rm
+/m/n/12.045/7f n \C70/rm/m/n/12.045/53 ¬ \C70/rm/m/n/12.045/65 p \C70/rm/m/n/12
+.045/67 e \C70/rm/m/n/12.045/78 n \C70/rm/m/n/12.045/5b ö \C70/rm/m/n/12.045/51
+ C \C70/rm/m/n/12.045/7d   \C70/rm/m/n/12.045/76 Ñ \C70/rm/m/n/12.045/5b ö \C70
+/rm/m/n/12.045/4f M|\C70/rm/m/n/12.045/30 ^^B| \C70/rm/m/n/12.045/4f M \C70/rm/
+m/n/12.045/7f n \C70/rm/m/n/12.045/53 ¬ \C70/rm/m/n/12.045/65 p \C70/rm/m/n/12.
+045/67 	 \C70/rm/m/n/12.045/4e Â  \C70/rm/m/n/12.045/51 ‡ \C70/rm/m/n/12.045/7
+9 Õ \C70/rm/m/n/12.045/90 	 \C70/rm/m/n/12.045/98 y|\C70/rm/m/n/12.045/ff ^^Z| 
+\OT1/cmr/m/n/12.045 h (here)|\C70/rm/m/n/12.045/30 ^^A|
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 12.64723pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[8]
+Overfull \hbox (4.07138pt too wide) in paragraph at lines 553--564
+\C70/rm/m/n/12.045/5b É \C70/rm/m/n/12.045/6d ˚ \C70/rm/m/n/12.045/52 † \C70/rm
+/m/n/12.045/4e ^^@ *\OT1/cmr/m/n/12.045 label\C70/rm/m/n/12.045/5c ^ \C70/rm/m/
+n/12.045/60 '|\C70/rm/m/n/12.045/ff ^^L| \C70/rm/m/n/12.045/71 6 \C70/rm/m/n/12
+.045/54 ^^N \C70/rm/m/n/12.045/57 ( \C70/rm/m/n/12.045/97 ^^@ \C70/rm/m/n/12.04
+5/89 Å \C70/rm/m/n/12.045/5f ^^U \C70/rm/m/n/12.045/75 ( \C70/rm/m/n/12.045/76 
+Ñ \C70/rm/m/n/12.045/57 0 \C70/rm/m/n/12.045/65 π \C70/rm/m/n/12.045/4f ^^? \C7
+0/rm/m/n/12.045/75 (\OT1/cmr/m/n/12.045 ref\OMS/cmsy/m/n/12.045 f\OT1/cmr/m/n/1
+2.045 the-label\OMS/cmsy/m/n/12.045 g \C70/rm/m/n/12.045/8f € \C70/rm/m/n/12.04
+5/88 L \C70/rm/m/n/12.045/5f ^^U \C70/rm/m/n/12.045/75 (|\C70/rm/m/n/12.045/ff 
+^^L| \OT1/cmr/m/n/12.045 L[]T[]X\C70/rm/m/n/12.045/5c ^^F
+ []
+
+
+Overfull \hbox (0.33508pt too wide) in paragraph at lines 580--581
+[]\C70/rm/m/n/12.045/65 p \C70/rm/m/n/12.045/5b f \C70/rm/m/n/12.045/7b & \C70/
+rm/m/n/12.045/53 ˜ \C70/rm/m/n/12.045/90 ^^_ \C70/rm/m/n/12.045/67 Â \C70/rm/m/
+n/12.045/88 h [][]$\OT1/cmtt/m/n/12.045 http : / / web . ift . uib . no / Teori
+ / KURS / WRK / TeX / symALL . html$[][] 
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 12.64723pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[9]
+Overfull \hbox (34.87975pt too wide) in paragraph at lines 581--582
+[]\C70/rm/m/n/12.045/5b W \C70/rm/m/n/12.045/4f S \C70/rm/m/n/12.045/59 ' \C70/
+rm/m/n/12.045/5c ^^O [][]$\OT1/cmtt/m/n/12.045 https : / / texblog . org / 2012
+ / 08 / 29 / changing-[]the-[]font-[]size-[]in-[]latex/$[][] 
+ []
+
+
+Overfull \hbox (24.29758pt too wide) in paragraph at lines 588--590
+\C70/rm/m/n/12.045/5c ^^F\OT1/cmr/m/n/12.045 bib\C70/rm/m/n/12.045/68 < \C70/rm
+/m/n/12.045/5f ^^O \C70/rm/m/n/12.045/76 Ñ \C70/rm/m/n/12.045/53 ¬ \C70/rm/m/n/
+12.045/80 ^^C \C70/rm/m/n/12.045/65 á \C70/rm/m/n/12.045/73 . \C70/rm/m/n/12.04
+5/52 † \C70/rm/m/n/12.045/51 e\OT1/cmr/m/n/12.045 bib\C70/rm/m/n/12.045/65 á \C
+70/rm/m/n/12.045/4e ˆ -|\C70/rm/m/n/12.045/ff ^^L| \C70/rm/m/n/12.045/71 6 \C70
+/rm/m/n/12.045/54 ^^N \C70/rm/m/n/12.045/91 Õ \C70/rm/m/n/12.045/65 ∞ \C70/rm/m
+/n/12.045/7f ^^V \C70/rm/m/n/12.045/8b — \C70/rm/m/n/12.045/53 s Ô|\C70/rm/m/n/
+12.045/30 ^^B| \C70/rm/m/n/12.045/57 ( \C70/rm/m/n/12.045/65 á \C70/rm/m/n/12.0
+45/4e - \C70/rm/m/n/12.045/4f ^^? \C70/rm/m/n/12.045/75 (\OT1/cmr/m/n/12.045 ci
+te\OMS/cmsy/m/n/12.045 f\OT1/cmr/m/n/12.045 citationA\OMS/cmsy/m/n/12.045 g\C70
+/rm/m/n/12.045/5f ^^U
+ []
+
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 12.64723pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[10] (./shu-thesis.bbl (./shu-thesis.brf)
+\tf@brf=\write6
+\openout6 = `shu-thesis.brf'.
+
+)
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 12.64723pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[11]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 12.64723pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[12]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 12.64723pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[13]
+
+Package Fancyhdr Warning: \headheight is too small (12.0pt): 
+ Make it at least 12.64723pt.
+ We now make it that large for the rest of the document.
+ This may cause the page layout to be inconsistent, however.
+
+[14]
+Package atveryend Info: Empty hook `BeforeClearDocument' on input line 639.
+Package atveryend Info: Empty hook `AfterLastShipout' on input line 639.
+ (./shu-thesis.aux)
+Package atveryend Info: Executing hook `AtVeryEndDocument' on input line 639.
+Package atveryend Info: Executing hook `AtEndAfterFileList' on input line 639.
+Package rerunfilecheck Info: File `shu-thesis.out' has not changed.
+(rerunfilecheck)             Checksum: A217C45B168B87A6F3598F91418B4173;2061.
+Package rerunfilecheck Info: File `shu-thesis.brf' has not changed.
+(rerunfilecheck)             Checksum: ACC106F58A1AD832D644ABDDC2C4C9DF;945.
+Package atveryend Info: Empty hook `AtVeryVeryEnd' on input line 639.
+ ) 
+Here is how much of TeX's memory you used:
+ 50859 strings out of 492649
+ 1063612 string characters out of 6131964
+ 1308643 words of memory out of 5000000
+ 53435 multiletter control sequences out of 15000+600000
+ 624005 words of font info for 369 fonts, out of 8000000 for 9000
+ 1141 hyphenation exceptions out of 8191
+ 62i,23n,96p,10435b,2877s stack positions out of 5000i,500n,10000p,200000b,80000s
+<c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/s
+imhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows
+/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simkai.ttf><c:
+/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simkai
+.ttf><c:/Windows/Fonts/simkai.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Font
+s/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Wind
+ows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc>
+<c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/sim
+sun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/F
+onts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/W
+indows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.t
+tc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/
+simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Window
+s/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c
+:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsu
+n.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fon
+ts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Win
+dows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc
+><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/si
+msun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/
+Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/
+Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.
+ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts
+/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windo
+ws/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><
+c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simh
+ei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fo
+nts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Wi
+ndows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.tt
+f><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/s
+imsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows
+/Fonts/simsun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:
+/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei
+.ttf><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Font
+s/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Wind
+ows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc>
+<c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/sim
+sun.ttc><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/F
+onts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/W
+indows/Fonts/simhei.ttf><c:/Windows/Fonts/simhei.ttf><c:/Windows/Fonts/simsun.t
+tc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/
+simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Window
+s/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><c:/Windows/Fonts/simsun.ttc><d
+:/wp/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx10.pfb><d:/wp/t
+exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx12.pfb><d:/wp/texlive
+/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmbx8.pfb><d:/wp/texlive/2018/t
+exmf-dist/fonts/type1/public/amsfonts/cm/cmex10.pfb><d:/wp/texlive/2018/texmf-d
+ist/fonts/type1/public/amsfonts/cm/cmitt10.pfb><d:/wp/texlive/2018/texmf-dist/f
+onts/type1/public/amsfonts/cm/cmmi12.pfb><d:/wp/texlive/2018/texmf-dist/fonts/t
+ype1/public/amsfonts/cm/cmmi8.pfb><d:/wp/texlive/2018/texmf-dist/fonts/type1/pu
+blic/amsfonts/cm/cmmib10.pfb><d:/wp/texlive/2018/texmf-dist/fonts/type1/public/
+amsfonts/cm/cmr10.pfb><d:/wp/texlive/2018/texmf-dist/fonts/type1/public/amsfont
+s/cm/cmr12.pfb><d:/wp/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cm
+r17.pfb><d:/wp/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr6.pfb>
+<d:/wp/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr7.pfb><d:/wp/t
+exlive/2018/texmf-dist/fonts/type1/public/amsfonts/cm/cmr8.pfb><d:/wp/texlive/2
+018/texmf-dist/fonts/type1/public/amsfonts/cm/cmsy10.pfb><d:/wp/texlive/2018/te
+xmf-dist/fonts/type1/public/amsfonts/cm/cmsy8.pfb><d:/wp/texlive/2018/texmf-dis
+t/fonts/type1/public/amsfonts/cm/cmti10.pfb><d:/wp/texlive/2018/texmf-dist/font
+s/type1/public/amsfonts/cm/cmti12.pfb><d:/wp/texlive/2018/texmf-dist/fonts/type
+1/public/amsfonts/cm/cmtt10.pfb><d:/wp/texlive/2018/texmf-dist/fonts/type1/publ
+ic/amsfonts/cm/cmtt12.pfb><d:/wp/texlive/2018/texmf-dist/fonts/type1/public/ams
+fonts/cm/cmtt8.pfb><d:/wp/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/s
+ymbols/msam10.pfb><d:/wp/texlive/2018/texmf-dist/fonts/type1/public/amsfonts/sy
+mbols/msbm10.pfb><d:/wp/texlive/2018/texmf-dist/fonts/type1/urw/zapfding/uzdr.p
+fb>
+Output written on shu-thesis.pdf (23 pages, 1276005 bytes).
+PDF statistics:
+ 1284 PDF objects out of 1440 (max. 8388607)
+ 892 compressed objects within 9 object streams
+ 131 named destinations out of 1000 (max. 500000)
+ 557 words of extra memory for PDF output out of 10000 (max. 10000000)
+
