@@ -1,0 +1,64 @@
+\usepackage{graphicx}
+\usepackage{times}
+\usepackage{color}
+\usepackage{float}
+\usepackage{leftidx}
+\usepackage{multicol}
+\usepackage{lastpage}
+\usepackage{fancyhdr}
+\usepackage{tikz}
+\usepackage{capt-of}
+\usepackage{draftwatermark}
+\SetWatermarkText{CSAEP}%设置水印文字
+\SetWatermarkLightness{0.96}%设置水印亮度
+\SetWatermarkScale{0.8}%设置水印大小
+%\usepackage[pdftex,bookmarksnumbered,bookmarksopen,colorlinks,citecolor=blue,linkcolor=blue]{hyperref}
+
+%改变文档页面布局
+%\addtolength{\hoffset}{-3cm}
+%\addtolength{\textwidth}{6cm}
+%\addtolength{\voffset}{-1.5cm}
+%\addtolength{\textheight}{3cm}
+
+%define a rgb color
+\definecolor{Cerulean}{rgb}{0,0.48,0.85}
+
+%default style for contents
+\CTEXoptions[contentsname={\zihao{-3}目录}]
+
+%default style for section
+\CTEXsetup[name={,}, number={\arabic{section}.},
+format={\zihao{-4}\raggedright\textbf}, titleformat={\zihao{-4}},
+afterskip={1pt}]{section}
+
+%default style for subsection
+%\CTEXsetup[format={}, indent={-30pt}]{subsection, beforeskip={10pt},}
+
+%default style for subsubsection
+%\CTEXsetup[format={\bf\zihao{5}}, indent={-3pt}]{subsubsection}
+
+%default style for paragraph
+\CTEXsetup[format={\zihao{5}\songti}]{paragraph}
+
+%default style for subparagraph
+
+%new commands
+%\newcommand: create a new command, format \newcommand{name}{num}{definition}
+%\renewcommand: redefine a command that exist
+%\providecommand: ignore the command with the same name
+\newcommand{\mtitle}[1]{\begin{center}\bigskip\zihao{-2}#1\end{center}}
+\newcommand{\mauthorinfo}[2]{\begin{center}\textbf{#1} \\ {#2}\end{center}}
+\newcommand{\p}[1]{\paragraph{\indent{}#1}}
+\newcommand{\csaep}{中华科教出版社}
+\newcommand{\csaepen}{China Science and Education Press}
+\newcommand{\csaepshort}{中华科教}
+\newcommand{\csaepshorten}{CSEP}
+\newcommand{\web}{http://www.csaep.com}
+\newcommand{\contact}{023-65620408 15178819864}
+\newcommand{\email}{servivce@csaep.com}
+\newcommand{\cop}{Copyright \copyright{} 2013 CSAEP}
+\newcommand{\add}{香港上环永乐街72-76号永利大厦二楼A室}
+\newcommand{\thenewfootnote}[1]{\textcolor{Cerulean}{\protect\footnote{#1}}}
+
+%new environment
+%\newenvironment: create a new environment, format \newenvironment{name}[num]{before}{after}

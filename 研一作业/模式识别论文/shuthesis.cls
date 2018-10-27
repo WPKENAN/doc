@@ -167,7 +167,7 @@
   \if@openright\cleardoublepage\else\clearpage\fi
   \@mainmattertrue
   \pagenumbering{arabic}
-  \pagestyle{shu@headings}}
+  \pagestyle{shu@plain}}%wp headings
 \renewcommand\backmatter{%
   \if@openright\cleardoublepage\else\clearpage\fi
   \@mainmattertrue}
@@ -208,7 +208,7 @@
   \fancyfoot[C]{\xiaowu\thepage}
   \renewcommand{\headrulewidth}{0pt}
   \renewcommand{\footrulewidth}{0pt}}
-\fancypagestyle{shu@headings}{%
+\fancypagestyle{shu@headings}{%%wp headings
   \fancyhead{}
   \fancyhead[CO]{\wuhao\kaishu\leftmark}
   \fancyhead[CE]{\wuhao\kaishu 上海大学\shu@cdegree 学位论文}
@@ -279,7 +279,7 @@
 \ctexset{%
   chapter={
     afterindent=true,
-    pagestyle={shu@headings},
+    pagestyle={shu@plain},%wp headings
     beforeskip={9bp},
     aftername=\hskip\ccwd,
     afterskip={24bp},
@@ -419,7 +419,7 @@
    \raisebox{1ex}[0pt][0pt]{
    \includegraphics[height=3cm,width=9.8cm]{shu.pdf}}\hskip5mm
    \includegraphics[height=3.3cm,width=2.7cm]{shulogo.pdf}\fi\par\vskip5mm
-   \hskip3mm{\maxsize\ifxetex\LanTingHei\else\bfseries\heiti\fi\shu@cdegree 学位论文}
+   \hskip3mm{\maxsize\ifxetex\LanTingHei\else\bfseries\heiti\fi\ }
  \par\vskip-1mm
  \noindent\uline{\hskip143mm}\par\vskip1mm
  {\zihao{-1}\bfseries
@@ -562,7 +562,7 @@
   \endgroup}
 \newcommand{\shu@makeabstract}{%
   \shu@chapter*[]{\cabstractname}
-    \pagestyle{shu@headings}
+    \pagestyle{shu@plain}%wp headings
     \pagenumbering{Roman}
   \shu@cabstract
   \vskip12bp

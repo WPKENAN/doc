@@ -1,0 +1,46 @@
+\section{进行物元变换}
+刘晏巧解中原“艰食”之围的方法，就是通常人们所指的‘窍门’、‘点子’、‘办法’和‘策略’。这些方法，为什么刘晏能够想到？它有否规律可行，有无方法可依？如果有，用计算机去实现这些，正是人类梦寐以求的，这也是本世纪和下世纪人类研究的重大课题。实际上，刘晏的方法是采用了以下四种物元变换：
+\begin{itemize}
+    \item \textbf{置换变换：}\\用某一事物代替另一事物，用某一特征代替另一特征，用某一量值代替另一量值的变换，称为置换变换。\\刘晏把余粮区的$x$万吨粮食先运到中原地区，以暂缓中原“艰食”的矛盾，就是灵活地应用了这一变换。
+        \item \textbf{增删变换：}\\根据目标市场的需要，确定对所收购物质的增、减量，称此类变换为增删变换。
+\\刘晏统筹全局，分别考虑价格和运输两个因素，确定增、减各地区的粮食购买量，以达到节省运费及开支，多购粮之目的。
+                \item \textbf{组分变换：}\\对一种物质产品分解成不同的部分，或将多种物质产品通过组合后形成一种新物质产品的变换，称为组分变换。
+\\刘晏成功地运用组分变换中的分解变换，利用经济统计数据，把各州、县几十年内的粮价与购粮数量各分成五等，由两者间的数量关系，归纳出价格与购量成反比的趋向，由此制定出合理的购粮规则。
+                        \item \textbf{扩缩变换：}\\此即对物元进行扩大或缩小的变换。
+\\刘晏的购粮安排可用以表\ref{table01}表示：
+\end{itemize}
+\begin{center}
+\captionof{table}{$A_i$州、县购粮统计表}
+\label{table01}
+\begin{tabular}{|c|c|c|c|c|c|}
+   \hline
+   $\vcenter{\hbox{%
+     \begin{tikzpicture}
+       \path[use as bounding box] (\tabcolsep,0) rectangle (3.5cm-\tabcolsep,1.2cm);
+        \draw (0cm,1.2cm) -- node[auto]{\zihao{-6}购量} node[auto,swap]{} (3.5cm,0cm);
+        \draw (2.2cm,1.2cm) -- node[auto]{\zihao{-6}价格} node[auto,swap]{} (3.5cm,0);
+        \draw (0cm,0cm) -- node[auto]{\zihao{-6}收购等级} node[auto,swap]{} (3.5cm,0cm);
+    \end{tikzpicture}%
+    }}$&\zihao{6}$P_1$&\zihao{6}$P_2$&\zihao{6}$P_3$&\zihao{6}$P_4$&\zihao{6}$P_5$\\
+   \hline
+   \zihao{6}1&&\zihao{6}$C_4$&&&\\
+\hline
+\zihao{6}2&\zihao{6}$C_5$&&&&\\
+\hline
+\zihao{6}3&&&&\zihao{6}$C_2$&\\
+\hline
+\zihao{6}4&&&\zihao{6}$C_3$&&\\
+\hline
+\zihao{6}5&&&&&\zihao{6}$C_1$\\
+\hline
+\end{tabular}
+\end{center}
+
+\indent{}从统计表1知，价格与购量关系可能呈非线性关系（见下图1中的实曲线）。
+\begin{figure}[!h]
+\centering
+ \includegraphics[scale=0.4]{Figs/01.png}
+\caption{价格与购量关系}
+\label{fig:01}
+\end{figure}
+\\\indent{}通过扩缩变换，将非线性关系化为线性供给关系,（见图\ref{fig:01}中的虚直线），从而大大地简化了运算。
