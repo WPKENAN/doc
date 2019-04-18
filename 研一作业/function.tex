@@ -1,0 +1,355 @@
+\documentclass{article}
+\usepackage[top=2cm, bottom=2cm, left=2cm, right=2cm]{geometry}
+\usepackage{algorithm}
+\usepackage{algorithmicx}
+\usepackage{algpseudocode}
+\usepackage{amsmath}
+
+
+%\renewcommand{\algorithmicrequire}{\textbf{Input:}}
+%\renewcommand{\algorithmicensure}{\textbf{Output:}}
+
+
+\makeatletter
+\newenvironment{breakablealgorithm}
+{% \begin{breakablealgorithm}
+	\begin{center}
+		\refstepcounter{algorithm}% New algorithm
+		\hrule height.8pt depth0pt \kern2pt% \@fs@pre for \@fs@ruled
+		\renewcommand{\caption}[2][\relax]{% Make a new \caption
+			{\raggedright\textbf{\ALG@name~\thealgorithm} ##2\par}%
+			\ifx\relax##1\relax % #1 is \relax
+			\addcontentsline{loa}{algorithm}{\protect\numberline{\thealgorithm}##2}%
+			\else % #1 is not \relax
+			\addcontentsline{loa}{algorithm}{\protect\numberline{\thealgorithm}##1}%
+			\fi
+			\kern2pt\hrule\kern2pt
+		}
+	}{% \end{breakablealgorithm}
+		\kern2pt\hrule\relax% \@fs@post for \@fs@ruled
+	\end{center}
+}
+\makeatother
+
+\begin{document}
+\section{Distributing an image}
+\subsection{(a)}
+
+\begin{gather*}
+	r=M\%P\\
+	q=\lfloor M/P\rfloor \\
+	MP(p)=\left\{
+	\begin{aligned}
+		q+1 && 0 \le p < r\\
+		q  && r \le p <P\\
+	\end{aligned}
+	\right.
+\end{gather*}
+
+\subsection{(b)}
+\begin{gather*}
+	M=13,P=5\\
+	r=3\\
+	q=2\\
+	MP(p)=\left\{
+	\begin{aligned}
+		3 && 0 \le p < 3\\
+		2 && 3 \le p <5\\
+	\end{aligned}
+	\right.
+\end{gather*}
+
+\begin{center}
+	\begin{tabular}{| l | l | l | l | l | l |}
+		\hline
+		p & 0 & 1 & 2 & 3 & 4 \\
+		\hline
+		$M_p$ & 3 & 3 & 3 & 2 & 2 \\
+		\hline
+	\end{tabular}
+\end{center}
+\subsection{(c)}
+Strategy in parts (a) and (b) can divide image blocks more evenly into each process than lab9.
+
+
+\subsection{(d)}
+\begin{breakablealgorithm}
+	\begin{algorithmic}[1] 
+		\Function {SUBIMAGE\_ROWS}{$M, P, p$}
+		\State $r \gets M\%P$
+		\State $q \gets int(M/P)$
+		\If {$p<r$}
+		\State $M_p \gets q+1$
+		\State $j_p \gets (q+1)*p$
+		\Else
+		\State $ M_p \gets q$
+		\State $j_p \gets (q+1)*r+q*(p-r)$
+		\EndIf
+		\State \Return{$M_p, j_p$}
+		\EndFunction
+	\end{algorithmic}
+\end{breakablealgorithm}
+
+
+\subsection{(e)}
+\begin{breakablealgorithm}
+	\begin{algorithmic}[1] 
+		\Function {DISTRIBUTE\_SUBIMAGES}{$M, N, D, P, p, M_p, D_p$}
+		\State $ALLOCATE(P,sendcnts)$
+		\State $ALLOCATE(P,displs)$
+		
+		\For{$i=0$ to $P-1$}
+		\State $M_i, J_i \gets SUBIMAGE\_ROWS(M, P, i)$
+		\State $sendcnts[i] \gets M_i*N$
+		\State $displs \gets J_i*N$
+		\EndFor
+		
+		\State $MPI\_SCATTERv(D,sendcnts,displs,IMAGE\_DATATYPE,D_p,sendcnts[p],0,MPI\_COMM\_WORLD)$
+		\State \Return{$D_p$}
+		\EndFunction
+	\end{algorithmic}
+\end{breakablealgorithm}
+
+
+
+
+\subsection{(f)}
+This may cause process 0 out of memory
+
+
+\subsection{(g)}
+\begin{breakablealgorithm}
+	\begin{algorithmic}[1] 
+		\Function {LOAD\_IMAGE\_EFFICIENTLY}{$image\_filename$}
+		\State $p \gets GET\_rank(COMMUNICATOR)$
+		\State $P \gets GET\_SIZE(COMMUNICATOR)$
+		
+		\If {$P=0$}
+		\State $M, N \gets READ\_IMAGE\_SIZE(image_filename)$
+		\State $SEND\_BROADCAST(COMMUNICATOR, (M, N))$
+		\EndIf
+		
+		\State $M_p, j_p \gets SUBIMAGE\_ROWS(M, P, p)$
+		\State $ALLOCATE\_SUBIMAGE(M_p, N, D_p)$
+		\State $D_p \gets READ\_SUBIMAGE(image\_filename,M, N, D, P, p, M_p, D_p)$
+		\State \Return $M, N, M_p, D_p$
+		\EndFunction
+	\end{algorithmic}
+\end{breakablealgorithm}
+
+
+\section{Calculate basic image statistics}
+\subsection{(a)}
+\begin{breakablealgorithm}
+	\begin{algorithmic}[1] 
+		\Function {CALC\_MIN}{$M, N, P, p, M_p, D_p$}
+		\State $submin \gets D_p[0][0]$
+		
+		\For{$i=0$ to $M_p-1$}
+		\For{$j=0$ to $N-1$}
+		\If {$D_p[i][j] < submin$}
+		\State $submin \gets D_p[i][j]$
+		\EndIf
+		\EndFor
+		\EndFor
+		
+		
+		\If {$P!=0$}
+		\State $MPI\_SEND(\&submin,1,MPI\_INT,0,0,MPI\_COMM\_WORLD)$
+		\Else
+		\State $min \gets submin$
+		
+		\For{$i=1$ to $P-1$}
+		\State $MPI\_RECV(\&min\_item,1,MPI\_INT,i,0,MPI\_COMM\_WORLD, MPI\_STATUS\_IGNORE)$
+		\If {$min\_item < min$}
+		\State $min \gets min\_item$
+		\EndIf
+		\EndFor
+		
+		
+		\State \Return $min$
+		\EndIf
+		\EndFunction
+	\end{algorithmic}
+\end{breakablealgorithm}
+
+\subsection{(b)}
+\begin{breakablealgorithm}
+	\begin{algorithmic}[1] 
+		\Function {CALC\_MAX}{$M, N, P, p, M_p, D_p$}
+		\State $submax \gets D_p[0][0]$
+		
+		\For{$i=0$ to $M_p-1$}
+		\For{$j=0$ to $N-1$}
+		\If {$D_p[i][j] > submax$}
+		\State $submax \gets D_p[i][j]$
+		\EndIf
+		\EndFor
+		\EndFor
+		
+		
+		\If {$P!=0$}
+		\State $MPI\_SEND(\&submax,1,MPI\_INT,0,0,MPI\_COMM\_WORLD)$
+		\Else
+		\State $max \gets submax$
+		
+		\For{$i=1$ to $P-1$}
+		\State $MPI\_RECV(\&max\_item,1,MPI\_INT,i,0,MPI\_COMM\_WORLD, MPI\_STATUS\_IGNORE)$
+		\If {$max\_item > max$}
+		\State $max \gets max\_item$
+		\EndIf
+		\EndFor
+		
+		
+		\State \Return $max$
+		\EndIf
+		\EndFunction
+	\end{algorithmic}
+\end{breakablealgorithm}
+
+\subsection{(c)}
+\begin{breakablealgorithm}
+	\begin{algorithmic}[1] 
+		\Function {CALC\_MEAN}{$M, N, P, p, M_p, D_p$}
+		\State $mean \gets 0$
+		\State $sum \gets 0$
+		
+		\For{$i=0$ to $M_p-1$}
+		\For{$j=0$ to $N-1$}
+		\State $sum \gets sum+Dp[i][j]/M/N$
+		\EndFor
+		\EndFor
+		
+		\State $MPI\_Reduce(\&sum,\&mean,1,MPI\_DOUBLE,MPI\_SUM,0,MPI\_COMM\_WORLD)$
+		
+		
+		\If {$p=0$}	
+		\State \Return $mean$
+		\EndIf
+		\EndFunction
+	\end{algorithmic}
+\end{breakablealgorithm}
+
+\subsection{(d)}
+Due to the standard deviation of the calculation, the mean value is required.
+
+\subsection{(e)}
+\begin{breakablealgorithm}
+	\begin{algorithmic}[1] 
+		\Function {CALC\_STDDEV}{$M, N, P, p, M_p, D_p$}
+		\State $mean \gets CALC\_MEAN(M, N, P, p, M_p, D_p)$
+		\State $stddev \gets 0$
+		\State $sum \gets 0$
+		
+		\For{$i=0$ to $M_p-1$}
+		\For{$j=0$ to $N-1$}
+		\State $sum \gets sum+(D_p[i][j]-mean)^2/M/N$
+		\EndFor
+		\EndFor
+		
+		\State $MPI\_Reduce(\&sum,\&mean,1,MPI\_DOUBLE,MPI\_SUM,0,MPI\_COMM\_WORLD)$
+		
+		
+		\If {$p=0$}	
+		\State $stddev \gets sqrt(mean)$
+		\State \Return $stddev$
+		\EndIf
+		\EndFunction
+	\end{algorithmic}
+\end{breakablealgorithm}
+
+\subsection{(f)}
+Because the global mean can be converted to: find the local mean of each block, and then average all the blocks. But it is difficult to translate the global median into sub-problems that are not interdependent.
+
+\section{Computing image histograms}
+\subsection{(a)}
+
+\begin{breakablealgorithm}
+	\begin{algorithmic}[1] 
+		\Function {CALC\_HISTOGRAM}{$image\_filename,K$}
+		\State $M,N,D \gets LOAD\_IMAGE(image\_filename)$
+		\State $H\_array \gets ALLOCATE\_IMAGE(K,DATATYPE\_FLOAT)$
+		
+		
+		\For{$i=0$ to $M-1$}
+		\For{$j=0$ to $N-1$}
+		\For{$c=0$ to $K-1$}
+		\If {$D[i][j]=1$}
+		\State $H\_array[K-1] \gets H\_array[K-1]+1$
+		\State $break$
+		\EndIf
+		
+		\If {$D[i][j] < (1/K)*(c+1)$}
+		\State $H\_array[c] \gets H\_array[c]+1$
+		\State $break$
+		\EndIf
+		
+		\EndFor
+		\EndFor
+		\EndFor
+		
+		
+		\State \Return $H\_array$
+		
+		\EndFunction
+	\end{algorithmic}
+\end{breakablealgorithm}
+
+\subsection{(b)}
+\begin{breakablealgorithm}
+	\begin{algorithmic}[1] 
+		\Function {CALC\_HISTOGRAM\_PARA}{$image\_filename,K$}
+		\State $p \gets GET\_RANK(COMMUNICATOR)$
+		\State $P \gets GET\_SIZE(COMMUNICATOR)$
+		\State $M, N, M_p, D_p \gets LOAD\_IMAGE\_EFFICIENTLY(image\_filename)$
+		
+		\State $ALLOCATE(K,subH\_array)$
+		\State $subH\_array \gets CALC\_HISTOGRAM(image\_filename,K)$
+		
+		\If {$p!=0$}
+		
+		\State $MPI\_SEND(subH\_array,K,MPI\_FLOAT,0,0,MPI\_COMM\_WORLD)$
+		\Else
+		\State $ALLOCATE(K,H\_array)$
+		\State $allH\_array \gets COPY(subH\_array)$
+		\For {$i=1$ to $P-1$}
+		\State $MPI\_RECV(subH\_array,K,MPI\_FLOAT,i,0,MPI\_COMM\_WORLD, MPI\_STATUS\_IGNORE)$
+		\For {$j=0$ $K-1$}
+		\State $allH\_array[j] \gets allH\_array[j]+subH\_array[j]$
+		\EndFor
+		\EndFor
+		\State \Return $allH\_array$
+		\EndIf
+		
+		
+		
+		\EndFunction
+	\end{algorithmic}
+\end{breakablealgorithm}
+
+\section{Weak scalability studies}
+\subsection{(a)}
+\begin{equation}
+	N_p=\lfloor N_1*\sqrt P+0.5 \rfloor
+\end{equation}
+
+\subsection{(b)}
+\begin{equation}
+	N_p=\lfloor N_1*P^{\frac{1}{3}}+0.5 \rfloor
+\end{equation}
+
+\subsection{(c)}
+
+\begin{breakablealgorithm}
+	\begin{algorithmic}[1] 
+		\For {$i$ in $2$ $4$ $8$ $16$ $32$ $64$ $128$ $256$}		
+		\State $mpirun \  -np \ \$i \ \ ./time\_matmat \ 10000$
+		\EndFor
+		
+	\end{algorithmic}
+\end{breakablealgorithm}
+	
+	
+\end{document}
+
+
